@@ -1,18 +1,17 @@
 //import logo from './logo.svg';
 //import dispHeader from './edu-rsc.js';
-
 import './Directory.css';
 
 function Directory() {
   return (
-    <div className="ResDirect">
+    <div>
       <h1>Sankofa National Family Respource Directory</h1>
 
       <p>
         The Sankofa Parent Support Group at UC Davis is a social network for parents and caregivers of Black children with disabilities. 
         Our goal is to empower parents to become strong advocates for the needs of their child. We are putting together a national Black provider directory for 
         families raising children with Developmental Disabilities.
-      <p>
+      </p>
 
       <p>
         If you are a Black provider or a non-Black provider that has extensive training in supporting Black families of 
@@ -22,10 +21,10 @@ function Directory() {
 
         <div className="button">
         <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
-          <button className="button-text" >Join Us</button>
+          <button className="button-text">Join Us</button>
         </a> 
-        </div>
       </div>
+    </div>
   );
 }
 
