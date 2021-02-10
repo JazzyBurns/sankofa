@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Homepage/Home';
 import Edu from './components/EduComponents/Edu';
-import Directory from './components/Directory/Direct'
+import Directory from './components/Directory/Directory'
 
 function App() {
   return (
