@@ -29,5 +29,4 @@ function Direct() {
   );
 }
 
-export default Directory;
-
+export default Direct;
