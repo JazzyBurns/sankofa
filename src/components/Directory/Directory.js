@@ -3,7 +3,7 @@
 
 import './Directory.css';
 
-function Direct() {
+function Directory() {
   return (
     <div className="ResDirect">
       <h1>Sankofa National Family Respource Directory</h1>
@@ -29,4 +29,4 @@ function Direct() {
   );
 }
 
-export default Direct;
+export default Directory;
