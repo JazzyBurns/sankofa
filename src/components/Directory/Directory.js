@@ -3,10 +3,11 @@
 
 import './Directory.css';
 
-function Directory() {
+function Direct() {
   return (
     <div className="ResDirect">
       <h1>Sankofa National Family Respource Directory</h1>
+
       <p>
         The Sankofa Parent Support Group at UC Davis is a social network for parents and caregivers of Black children with disabilities. 
         Our goal is to empower parents to become strong advocates for the needs of their child. We are putting together a national Black provider directory for 
@@ -19,12 +20,12 @@ function Directory() {
         For additional information and/or if you have any questions or concerns, please contact Dr. Jazmin Burns at jlsheppard@ucdavis.edu. 
       </p>
 
-      <div className="button">
-      <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
-        <button className="button-text" >Join Us</button>
-      </a> 
+        <div className="button">
+        <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
+          <button className="button-text" >Join Us</button>
+        </a> 
+        </div>
       </div>
-    </div>
   );
 }
 
