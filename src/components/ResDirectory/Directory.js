@@ -1,9 +1,9 @@
 //import logo from './logo.svg';
 //import dispHeader from './edu-rsc.js';
 
-import './ResDirectory.css';
+import './Directory.css';
 
-function ResDirectory() {
+function Directory() {
   return (
     <div className="ResDirect">
       <h1>Sankofa National Family Respource Directory</h1>
@@ -25,5 +25,5 @@ function ResDirectory() {
   );
 }
 
-export default ResDirectory;
+export default Directory;
 

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Homepage/Home';
 import Edu from './components/EduComponents/Edu';
-import ResDirectory from './components/ResDirectory/ResDirectory'
+import Directory from './components/Directory/Directory'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={ Home } />
           <Route path='/' exact compoent={ Edu } />
-          <Route path='/' exact component={ ResDirectory } />
+          <Route path='/' exact component={ Directory } />
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
