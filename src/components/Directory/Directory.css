@@ -17,7 +17,7 @@ p {
 }
   
   
-.button{
+.joins-us-button{
   display: block;
   position: relative;
   margin-left: auto;
@@ -37,4 +37,23 @@ p {
   font-size: 18px;
   line-height: 22px;
   color: #556667;
+}
+
+@media (max-width: 1200px) {
+  .home-container {
+      font-size: 1.5vw;
+  }
+
+  .home-container h1 {
+      font-size: 3vw;
+  }
+
+  .joins-us-button {
+      margin: 3% auto;
+  }
+
+  .button-text {
+      font-size: 1.5vw;
+  }
+
 }
