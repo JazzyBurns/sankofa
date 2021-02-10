@@ -1,11 +1,19 @@
-* {
-  background-color: #FFFCF8;
+
+
+.h1 {
+
+margin-left: auto;
+margin-right: auto;
+margin: 45px auto;
+;
 }
 
 p {
   color: #556667;
   font-family: Verdana, sans-serif;
   margin-bottom: 6%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
   
   
@@ -15,6 +23,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin: 45px auto;
+
   background-color: #B6D9D3;
   border: none;
   border-radius: 15px;
@@ -24,7 +33,6 @@ p {
 
 .button-text {
   background-color: transparent;
-  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;

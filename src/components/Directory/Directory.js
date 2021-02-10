@@ -2,7 +2,7 @@
 //import dispHeader from './edu-rsc.js';
 import './Directory.css';
 
-function Directory() {
+function Direct() {
   return (
     <div>
       <h1>Sankofa National Family Respource Directory</h1>
@@ -21,7 +21,7 @@ function Directory() {
 
         <div className="button">
         <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
-          <button className="button-text">Join Us</button>
+          <button className="button-text"> Join Us </button>
         </a> 
       </div>
     </div>
@@ -29,4 +29,4 @@ function Directory() {
   );
 }
 
-export default Directory;
+export default Direct;
