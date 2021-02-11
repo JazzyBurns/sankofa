@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Homepage/Home';
 import Edu from './components/EduComponents/Edu';
-import Direct from './components/Directory/Directory'
+import Direct from './components/Directory/Directory';
+import Testim from './components/Testimonies/Testimonies';
+import Resources from './components/Resources/Resources';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path='/' exact component={ Home } />
           <Route path='/' exact compoent={ Edu } />
           <Route path='/Directory' exact component={ Direct } />
+          <Route path='/Testimonies' exact component={ Testim } />
+          <Route path='/Resources' exact component={ Resources } />
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
