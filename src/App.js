@@ -7,6 +7,7 @@ import Edu from './components/EduComponents/Edu';
 import Direct from './components/Directory/Directory';
 import Testim from './components/Testimonies/Testimonies';
 import Resources from './components/Resources/Resources';
+import POA_Resources from './components/POA_Resources/POA_Resources';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Directory' exact component={ Direct } />
           <Route path='/Testimonies' exact component={ Testim } />
           <Route path='/Resources' exact component={ Resources } />
+          <Route path='/Directory' exact compoent={ POA_Resources } />
           {/* 
 
           Add your pages paths here. Remember to import like I did above.

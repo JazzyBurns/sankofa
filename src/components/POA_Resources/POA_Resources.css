@@ -1,0 +1,62 @@
+h1 {
+    position: absolute;
+    width: 1095px;
+    height: 56px;
+    left: 172px;
+    top: 211px;
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #556667;
+}
+
+button {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #556667;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 761px;
+    height: 99px;
+    left: 172px;
+    top: 308px;
+    
+    background: #FFFCF8;
+    border: 5px solid #CD9B62;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 540px;
+    height: 99px;
+    left: 172px;
+    top: 448px;
+
+    background: #FFFCF8;
+    border: 5px solid #CD9B62;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 607px;
+    height: 99px;
+    left: 172px;
+    top: 588px;
+
+    background: #FFFCF8;
+    border: 5px solid #CD9B62;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
