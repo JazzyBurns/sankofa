@@ -25,9 +25,9 @@ function Direct() {
       </p>
       </div>
       
-        <div className="join-us-button">
+        <div>
         <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
-          <button className="join-button-text"> Join Us </button>
+          <button className="button-text"> Join Us </button>
         </a> 
       </div>
     </div>
