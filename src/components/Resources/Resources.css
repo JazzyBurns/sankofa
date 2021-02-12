@@ -43,6 +43,7 @@
     font-size: 18px;
     text-decoration: none;
     color: inherit;
+    box-shadow: 0 4px 25px rgba(178, 178, 178, 0.25);
 }
 
 .card-link span
@@ -63,7 +64,7 @@
     .res-card-container
     {
         margin-top: 80px;
-        gap: 84px;
+        gap: 69px 84px;
     }
 
     .resources-container
