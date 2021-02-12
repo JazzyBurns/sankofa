@@ -6,7 +6,7 @@ function Direct() {
   return (
     <div className = "direct">
       <div className ="direct-container-title">
-      <h1>Sankofa National Family Respource Directory</h1>
+      <h1 className ="direct-h1">Sankofa National Family Respource Directory</h1>
       </div>
 
       <div className ="direct-container1">
@@ -27,7 +27,7 @@ function Direct() {
       
         <div>
         <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
-          <button className="button-text"> Join Us </button>
+          <button className="direct-button-text"> Join Us </button>
         </a> 
       </div>
     </div>
