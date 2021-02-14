@@ -8,7 +8,7 @@ import Direct from './components/Directory/Directory';
 import Testim from './components/Testimonies/Testimonies';
 import Resources from './components/Resources/Resources';
 import POA_Resources from './components/POA_Resources/POA_Resources';
-import SupportServices from './components/Support_Services/SupportServices';
+import SupportServices from './components/SupportServices/SupportServices';
 
 function App() {
   return (

@@ -1,5 +1,6 @@
-import './Supportservices.css'
-import { Link } from 'react-router-dom';
+import './SupportServices.css'
+
+
 function SupportServices()
 {
     return
@@ -17,4 +18,4 @@ function SupportServices()
 
     );
 }
-export default SupportServices
+export default SupportServices;
