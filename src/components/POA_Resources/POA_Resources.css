@@ -12,7 +12,7 @@ POA_title {
     color: #556667;
 }
 
-button {
+.rectangle1 {
     font-family: Verdana;
     font-style: normal;
     font-weight: normal;
@@ -20,9 +20,7 @@ button {
     line-height: 29px;
     text-decoration-line: underline;
     color: #556667;
-}
-
-.rectangle1 {
+    
     position: absolute;
     width: 761px;
     height: 99px;
@@ -36,6 +34,14 @@ button {
 }
 
 .rectangle2 {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #556667;
+    
     position: absolute;
     width: 540px;
     height: 99px;
@@ -49,6 +55,14 @@ button {
 }
 
 .rectangle3 {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    color: #556667;
+    
     position: absolute;
     width: 607px;
     height: 99px;
