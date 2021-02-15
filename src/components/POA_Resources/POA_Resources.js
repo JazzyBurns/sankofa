@@ -3,7 +3,7 @@ import './POA_Resources.css';
 function POA_Resources() {
     return(
         <div className="POA">
-            <h1>Policy, Outreach, and Advocacy Resources</h1>
+            <h1 className="POA_title">Policy, Outreach, and Advocacy Resources</h1>
 
             <a href="https://www.aucd.org//template/index.cfm">
             <button className="rectangle1" >Association of University Centers on Disabilities (AUCD)</button>
