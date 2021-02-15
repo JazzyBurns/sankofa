@@ -5,9 +5,9 @@ function SupportServices()
 {
     
    return (
-    <h2>Support Services Resources</h2>
+   
     <div className="SupportServices-body">
-        
+         <h2>Support Services Resources</h2>
         <p>
             <h5>Click to jump to section:</h5>
             <li>Website Resources</li>
