@@ -5,12 +5,12 @@ function SupportServices()
 {
 
    return (
-    <div>
+  <div classname="Support">
         <h2>Support Services Resources</h2>
     <div className="SupportServices-body">
         
         <p>
-            <h5>Click to jump to section:</h5>
+            <h3>Click to jump to section:</h3>
             <li>Website Resources</li>
             <li>Speech/Language Website Resources</li>
             <li>Physical Therapy Website Resources</li>
@@ -20,30 +20,48 @@ function SupportServices()
 
     </div>
 
-    <div className="WebsiteContainer">
+    
+        
+        <div classname="WebsiteSections">
+        
         <h2>Website Resources</h2>
-        <ul classname="WebsiteSections">
-            <li><a href="http://www.warmlinefrc.org"><span>Warmline</span></a></li>
-            <li><a href="https://thegiftsfoundation.org"><span>The Gifts Foundation</span></a></li>
-            <li><a href="http://vistachildtherapy.com"><span>Occupational Therapy</span></a></li>
-            <li><a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"><span>Center for Excellence in Developmental Disabilities</span></a></li>
+           <a href="http://www.warmlinefrc.org">
+            
+             <button className="btnCol" className='Webbutton'>Warmline</button>
+           
+           </a>
+           
+          <a href="https://thegiftsfoundation.org">
+              
+              <button className="btnCol" className='Webbutton'>The Gifts Foundation</button>
 
+              </a>
 
-        </ul>
+            <a href="http://vistachildtherapy.com">
+                
+                <button className="btnCol" className='Webbutton'>Occupational Therapy</button>
+                
+                </a>
+            <a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"> 
+            <button className="btnCol" className='Webbutton'>Center for Excellence in Developmental Disabilities</button>
+            
+            </a>
+        </div>
 
-    </div>
+   
 
-   <div classname="SpeechContainer">
+   
+    
+    <div classname="SpeechSections">
     <h2>Speech/Language Website Resources</h2>
-    <ul classname="SpeechSections">
-        <li><a href="https://www.asha.org"><span>American-Speech-Lanugage-Hearing Association (ASHA)</span></a></li>
-        <li><a href="http://www.arsgoldriver.com"><span>American River Speech Therapy</span></a></li>
-        <li><a href="https://capitolspeechandrehab.com"><span>Capitol Speech & Rehab</span></a></li>
-        <li><a href="http://cookspeechandlanguage.com/"><span>Cook Speech and Language</span></a></li>
-        <li><a href="https://www.ssrlc.org/"><span>Sacramento Scottish Rite</span></a></li>
-        <li><a href="https://tlcinctherapies.com/"><span>Therapeutic Language Clinic</span></a></li>
-    </ul>
-   </div>
+        <a href="https://www.asha.org"><button className="btnCol" className='Speechbutton'>American-Speech-Lanugage-Hearing Association (ASHA)</button></a>
+        <a href="http://www.arsgoldriver.com"><button className="btnCol" className='Speechbutton'>American River Speech Therapy</button></a>
+        <a href="https://capitolspeechandrehab.com"><button className="btnCol" className='Speechbutton'>Capitol Speech & Rehab</button></a>
+       <a href="http://cookspeechandlanguage.com/"><button className="btnCol" className='Speechbutton'>Cook Speech and Language</button></a>
+       <a href="https://www.ssrlc.org/"><button className="btnCol" className='Speechbutton'>Sacramento Scottish Rite</button></a>
+       <a href="https://tlcinctherapies.com/"><button className="btnCol" className='Speechbutton'>Therapeutic Language Clinic</button></a>
+    </div>
+   
 
         <div classname="PTcontainer">
             <h2>Physical Therapy Website Resources</h2>
@@ -58,62 +76,7 @@ function SupportServices()
 
             </ul>
         </div>
-       <div>
-           <h2>Support Services Resources</h2>
-           <div className="SupportServices-body">
-
-               <p>
-                   <h5>Click to jump to section:</h5>
-                   <li>Website Resources</li>
-                   <li>Speech/Language Website Resources</li>
-                   <li>Physical Therapy Website Resources</li>
-
-               </p>
-
-
-           </div>
-
-           <div className="WebsiteContainer">
-               <h2>Website Resources</h2>
-               <ul classname="WebsiteSections">
-                   <li><a href="http://www.warmlinefrc.org"><span>Warmline</span></a></li>
-                   <li><a href="https://thegiftsfoundation.org"><span>The Gifts Foundation</span></a></li>
-                   <li><a href="http://vistachildtherapy.com"><span>Occupational Therapy</span></a></li>
-                   <li><a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"><span>Center for Excellence in Developmental Disabilities</span></a></li>
-
-
-               </ul>
-
-           </div>
-
-           <div classname="SpeechContainer">
-               <h2>Speech/Language Website Resources</h2>
-               <ul classname="SpeechSections">
-                   <li><a href="https://www.asha.org"><span>American-Speech-Lanugage-Hearing Association (ASHA)</span></a></li>
-                   <li><a href="http://www.arsgoldriver.com"><span>American River Speech Therapy</span></a></li>
-                   <li><a href="https://capitolspeechandrehab.com"><span>Capitol Speech & Rehab</span></a></li>
-                   <li><a href="http://cookspeechandlanguage.com/"><span>Cook Speech and Language</span></a></li>
-                   <li><a href="https://www.ssrlc.org/"><span>Sacramento Scottish Rite</span></a></li>
-                   <li><a href="https://tlcinctherapies.com/"><span>Therapeutic Language Clinic</span></a></li>
-
-               </ul>
-           </div>
-
-           <div classname="PTcontainer">
-               <h2>Physical Therapy Website Resources</h2>
-               <ul classname="Ptsections">
-                   <li><a href="http://www.babystepstherapy.com"><span>Baby Steps Therapy</span></a></li>
-                   <li><a href="http://www.burgerrehab.com"><span>Burger Physical Therapy</span></a></li>
-                   <li><a href="https://www.ctchelpskids.org"><span>Children's Therapy Center</span></a></li>
-                   <li><a href="https://www.easterseals.com/superior-ca/"><span>Easterseals Superior California</span></a></li>
-                   <li><a href="https://www.jabbergym.com"><span>Jabber Gym</span></a></li>
-                   <li><a href="https://www.tesidea.com"><span>Total Education Solutions</span></a></li>
-                   <li><a href="http://www.sierrapediatrics.com"><span>Sierra Pediatric Therapy Clinic</span></a></li>
-
-               </ul>
-           </div>
-       </div>
-       </div>
+    </div>
    );
 }
 export default SupportServices;
