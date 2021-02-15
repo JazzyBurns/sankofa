@@ -21,8 +21,8 @@ function App() {
           <Route path='/Directory' exact component={ Direct } />
           <Route path='/Testimonies' exact component={ Testim } />
           <Route path='/Resources' exact component={ Resources } />
-          <Route path='/Directory' exact compoent={ POA_Resources } />
-          <Route path ='/Resources'exact component={SupportServices}/>
+          <Route path='/Policy' exact component={ POA_Resources } />
+          <Route path ='/SupportServices'exact component={SupportServices}/>
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
