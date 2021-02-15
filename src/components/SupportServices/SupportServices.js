@@ -54,28 +54,63 @@ function SupportServices()
     
     <div classname="SpeechSections">
     <h2>Speech/Language Website Resources</h2>
-        <a href="https://www.asha.org"><button className="btnCol" className='Speechbutton'>American-Speech-Lanugage-Hearing Association (ASHA)</button></a>
-        <a href="http://www.arsgoldriver.com"><button className="btnCol" className='Speechbutton'>American River Speech Therapy</button></a>
-        <a href="https://capitolspeechandrehab.com"><button className="btnCol" className='Speechbutton'>Capitol Speech & Rehab</button></a>
-       <a href="http://cookspeechandlanguage.com/"><button className="btnCol" className='Speechbutton'>Cook Speech and Language</button></a>
-       <a href="https://www.ssrlc.org/"><button className="btnCol" className='Speechbutton'>Sacramento Scottish Rite</button></a>
-       <a href="https://tlcinctherapies.com/"><button className="btnCol" className='Speechbutton'>Therapeutic Language Clinic</button></a>
+        <a href="https://www.asha.org">
+            <button className="btnCol" className='Speechbutton'>American-Speech-Lanugage-Hearing Association (ASHA)</button>
+            </a>
+        <a href="http://www.arsgoldriver.com">
+            <button className="btnCol" className='Speechbutton'>American River Speech Therapy</button>
+            </a>
+        <a href="https://capitolspeechandrehab.com">
+            <button className="btnCol" className='Speechbutton'>Capitol Speech & Rehab</button></a>
+       <a href="http://cookspeechandlanguage.com/">
+           <button className="btnCol" className='Speechbutton'>Cook Speech and Language</button>
+       </a>
+       <a href="https://www.ssrlc.org/">
+           <button className="btnCol" className='Speechbutton'>Sacramento Scottish Rite</button>
+           </a>
+       <a href="https://tlcinctherapies.com/">
+           <button className="btnCol" className='Speechbutton'>Therapeutic Language Clinic</button>
+           </a>
     </div>
    
 
-        <div classname="PTcontainer">
-            <h2>Physical Therapy Website Resources</h2>
-            <ul classname="Ptsections">
-                <li><a href="http://www.babystepstherapy.com"><span>Baby Steps Therapy</span></a></li>
-                <li><a href="http://www.burgerrehab.com"><span>Burger Physical Therapy</span></a></li>
-                <li><a href="https://www.ctchelpskids.org"><span>Children's Therapy Center</span></a></li>
-                <li><a href="https://www.easterseals.com/superior-ca/"><span>Easterseals Superior California</span></a></li>
-                <li><a href="https://www.jabbergym.com"><span>Jabber Gym</span></a></li>
-                <li><a href="https://www.tesidea.com"><span>Total Education Solutions</span></a></li>
-                <li><a href="http://www.sierrapediatrics.com"><span>Sierra Pediatric Therapy Clinic</span></a></li>
+       
+            
+            <div classname="Ptsections">
+                <h2>Physical Therapy Website Resources</h2>
+                <a href="http://www.babystepstherapy.com">
+                    
+                    <button className="btnCol" className='PTbutton'>Baby Steps Therapy</button>
 
-            </ul>
-        </div>
+                </a>
+                <a href="http://www.burgerrehab.com">
+                    
+                    <button className="btnCol" className='PTbutton'>Burger Physical Therapy</button>
+                    
+                </a>
+                <a href="https://www.ctchelpskids.org">
+                   
+                    <button className="btnCol" className='PTbutton'>Children's Therapy Center</button>
+                   
+                    </a>
+                <a href="https://www.easterseals.com/superior-ca/">
+                   
+                    <button className="btnCol" className='PTbutton'>Easterseals Superior California</button>
+                   
+                    </a>
+                <a href="https://www.tesidea.com">
+                   
+                    <button className="btnCol" className='PTbutton'>Total Education Solutions</button>
+                   
+                    </a>
+                <a href="http://www.sierrapediatrics.com">
+                    
+                    <button className="btnCol" className='PTbutton'>Sierra Pediatric Therapy Clinic</button>
+                    
+                    </a>
+
+            </div>
+       
     </div>
    );
 }
