@@ -1,0 +1,33 @@
+.recordedSessions {
+  width: 80%;
+  padding-right: 90px;
+  margin-left: auto;
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  color: #556667;
+}
+
+.recordedSessions h1 {
+  font-size: 36px;
+}
+
+
+.recordedSessions h2 {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 414px) {
+  .recordedSessions {
+    padding-right: 38px;
+  }
+}
+@media screen and (width: 414px) {
+  .recordedSessions {
+    padding-right: 40px;
+  }
+}
+@media screen and (width: 768px) {
+  .recordedSessions {
+    padding-right: 78px;
+  }
+}

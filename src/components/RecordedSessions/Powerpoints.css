@@ -1,0 +1,19 @@
+.pptContainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pptChildren {
+  flex: 0 0 33.333333%;
+}
+
+@media screen and (max-width: 1024px) {
+  .pptContainer {
+    justify-content: space-between;
+  }
+  .pptChildren {
+    flex: 0;
+  }
+}
+
