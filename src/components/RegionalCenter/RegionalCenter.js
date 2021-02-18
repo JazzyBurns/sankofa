@@ -31,9 +31,6 @@ function RegionalCenter() {
             <button class="btn"> <img src={image2} width="100" height="100" alt="hihi"/> </button>
         </div>
     </div>
-
-
-
   );
 }
 
