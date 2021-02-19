@@ -1,7 +1,9 @@
 
-.direct-h1 h1 {
+.direct-h1 {
   width:80%;
   margin:auto;
+  font-size: bold;
+  margin-bottom: 6%;
 }
 
 .direct-container1 p {
@@ -19,9 +21,12 @@
   margin:auto;
   margin-bottom: 6%;
 }
-  
-.button-text {
+
+.direct-container3 div{
   text-decoration: none;
+}
+  
+.direct-button-text {
   background-color: transparent;
   font-weight: bold;
   font-size: 18px;
@@ -30,6 +35,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 6%;
   position: relative;
   background-color: #B6D9D3;
   border: none;
@@ -51,7 +57,7 @@
       margin: 3% auto;
   }
 
-  .button-text {
+  .direct-button-text {
       font-size: 3% auto;
   }
 
