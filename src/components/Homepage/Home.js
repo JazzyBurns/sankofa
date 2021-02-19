@@ -9,9 +9,13 @@ function Home() {
         <div>
             <Helmet>
                 <title>Sankofa | Home</title>
+                <style>{'body { background-color: #FFFCF8; }'}</style>
             </Helmet>
             
             <div className="home-container">
+                
+                <img className="home-img" src="images/landing-img.png" alt="Landing"/>
+                
                 <div className="about">
                     <h1>What is Sankofa?</h1>
                     <p>
@@ -32,23 +36,8 @@ function Home() {
                 </div>
 
                 <button className="learn-more-button">
-                    <Link to="/about-us" className="button-text">Learn More</Link>
+                    <Link to="/about-us" className="learn-more-text">Learn More</Link>
                 </button>
-
-                <div className="announcements">
-                    <h1>Announcements</h1>
-                    <div className="announcement-item">
-                        <h2>Lorem ipsum</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et sem nunc enim dapibus. Semper quis tempor dictum 
-                            ullamcorper amet. Sit praesent quis viverra nunc massa, odio porta non adipiscing. Sapien auctor turpis quam urna. 
-                            Magna sodales non faucibus nisl.
-                            <br></br>
-                            Dolor aliquet cursus a adipiscing adipiscing ipsum, id. Suscipit aenean a aliquam augue at tortor. Blandit mauris, ut 
-                            amet quis lacus. Purus tellus dolor scelerisque vitae leo. Justo pulvinar odio ac vitae.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     );
