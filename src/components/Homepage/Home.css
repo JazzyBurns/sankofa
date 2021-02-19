@@ -15,7 +15,6 @@
 
 .home-container h1 {
     font-size: 36px;
-    /* font-size: 5.2vw; */
     margin-bottom: 4%;
 }
 
@@ -65,6 +64,8 @@
 
     .home-container h1 {
         font-size: 25px;
+        margin-top: 42px;
+        margin-bottom: 30px;
     }
 
     .learn-more-text {
