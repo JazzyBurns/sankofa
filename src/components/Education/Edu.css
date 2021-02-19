@@ -1,5 +1,6 @@
 .eduh1{
   color:pink;
+  /*the pink is for testing purposes my header is not pink which means something is wrong*/
   /*color: #556667;*/
   font-family: Verdana, sans-serif;
   font-size: 1.5em;
@@ -32,14 +33,12 @@
   font-family: Verdana, sans-serif;
 }
 
-
-
 .btnRow{
   margin-left: 12%;
   display: block;
   margin-bottom: 2em;
 }
 
-.btnCol{
+.buttonCol{
   margin-right: 3em;
 }

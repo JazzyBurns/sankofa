@@ -5,16 +5,15 @@ import './Edu.css';
 function Edu() {
   return (
     <div className="Edu">
-      <h1>test</h1>
       <h1 className='.eduh1'>Educational Resources</h1>
       <h2 className='.eduh2'>General Resources</h2>
 
       <div className="btnRow">
       <a href="https://www.understood.org">
-        <button className="btnCol" className='edubutton'>Understood</button>
+        <button className="buttonCol" className='edubutton'>Understood</button>
       </a> 
       <a href="https://sites.ed.gov/idea/">
-        <button className="btnCol" className='edubutton'>Individuals with Disabilities Education Act</button>
+        <button className="buttonCol" className='edubutton'>Individuals with Disabilities Education Act</button>
       </a> 
       </div>
 
