@@ -6,10 +6,10 @@ import './RecordedSessions.css';
 function RecordedSessions() {
   return (
     <div className="recordedSessions">
-      <h1>Recorded Sessions & Powerpoints</h1>
-      <h2>Recorded Sessions</h2>
+      <h1 style={{fontWeight:"bold"}}>Recorded Sessions & Powerpoints</h1>
+      <h2 style={{fontWeight:"bold"}}>Recorded Sessions</h2>
       <Recordings/>
-      <h2>Powerpoints</h2>
+      <h2 style={{fontWeight:"bold"}}>Powerpoints</h2>
       <Powerpoints/>
     </div>
   );

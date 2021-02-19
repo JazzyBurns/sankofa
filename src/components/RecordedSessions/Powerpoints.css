@@ -17,3 +17,13 @@
   }
 }
 
+@media screen and (max-width: 766px) {
+  .pptContainer {
+    justify-content: center;
+  }
+  .pptChildren {
+    flex: 0;
+  }
+}
+
+
