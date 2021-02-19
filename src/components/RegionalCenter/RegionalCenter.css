@@ -1,14 +1,12 @@
-* {
-    background-color: #fffcf8;
-    
-    font-family: Verdana;
-    font-style: normal;
-    font-weight: normal;
-    color: #556667;
-  }
+
   
   .r-page {
+    background-color: #fffcf8;
     margin: 12%;
+    margin-top: 0;
+
+    font-family: Verdana;
+    color: #556667;
   }
   
   .r-page h1{
@@ -32,18 +30,23 @@
      position: relative; 
      margin-bottom: 30px; 
   }  */
-  .btn {
+  .r-btn, .a-btn, .i-btn{
     
     background: #FFFCF8;
     border: 4px solid #CD9B62;
     box-sizing: border-box;
     border-radius: 15px;
-    padding: 30px;
-  
-    font-size: 24px;
+    padding:30px; 
+
+    font-family: Verdana;
+    color: #556667;
+    font-size: 20px;
     line-height: 29px;
-    
     text-align: left;
+    
+    height: 100;
+    width: auto;
+    /* display: inline-flex; */
   
     margin-bottom: 3vh;
     margin-right: 3vh;
@@ -51,7 +54,18 @@
     /* margin-bottom: 30px; */
   
   }
+
+  /* .r-btn {
+    min-height: 50vh;
+    vertical-align:top;
+  } */
+
+    .regional-centers {
+    display:table; 
+    justify-content: center;
+    
+  }  
   
-  .u {
+  .uline {
     text-decoration-line: underline;
   }

@@ -27,7 +27,7 @@ function App() {
           <Route path='/Policy' exact component={ POA_Resources } />
           <Route path ='/SupportServices'exact component={SupportServices}/>
           <Route path = '/RecordedSessions' exact component={RecordedSessions}/>
-          <Route path = '/RegionalCenter' exact component={ RegionalCenter }/>
+          <Route path ='/Regional-Center' exact component={ RegionalCenter } />
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
