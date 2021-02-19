@@ -37,6 +37,8 @@
     border-radius: 10px;
     height: 4em;
     font-family: Verdana, sans-serif;
+    column-gap: 40px;
+    
 }
 .PTbutton
 {
