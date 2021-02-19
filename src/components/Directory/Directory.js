@@ -25,7 +25,7 @@ function Direct() {
       </p>
       </div>
       
-        <div>
+        <div className = "direct-container3">
         <a href="https://forms.gle/qYXbL3BdFATwwG6y8">
           <button className="direct-button-text"> Join Us </button>
         </a> 
