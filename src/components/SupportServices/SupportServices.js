@@ -24,11 +24,10 @@ function SupportServices()
         <div classname="WebsiteSections">
         
         <h2>Website Resources</h2>
-           <a href="http://www.warmlinefrc.org">
+        <a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"> 
+            <button className="btnCol" className='Webbutton'>Center for Excellence in Developmental Disabilities</button>
             
-             <button className="btnCol" className='Webbutton'>Warmline</button>
-           
-           </a>
+            </a>
            
           <a href="https://thegiftsfoundation.org">
               
@@ -41,10 +40,15 @@ function SupportServices()
                 <button className="btnCol" className='Webbutton'>Occupational Therapy</button>
                 
                 </a>
-            <a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"> 
-            <button className="btnCol" className='Webbutton'>Center for Excellence in Developmental Disabilities</button>
+
+                
+                <a href="http://www.warmlinefrc.org">
             
-            </a>
+             <button className="btnCol" className='Webbutton'>Warmline</button>
+           
+           </a>
+           
+            
         </div>
 
    
