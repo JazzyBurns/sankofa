@@ -14,8 +14,7 @@ function SupportServices()
             <li>Website Resources</li>
             <li>Speech/Language Website Resources</li>
             <li>Physical Therapy Website Resources</li>
-
-        </p>
+            </p>
 
 
     </div>
