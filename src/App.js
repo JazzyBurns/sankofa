@@ -21,7 +21,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={ Home } />
-          <Route path='/Education' exact compoent={ Edu } />
+          <Route path='/Education' exact component={ Edu } />
           <Route path='/Directory' exact component={ Direct } />
           <Route path='/Testimonies' exact component={ Testim } />
           <Route path='/Resources' exact component={ Resources } />
@@ -29,7 +29,7 @@ function App() {
           <Route path ='/SupportServices'exact component={SupportServices}/>
           <Route path = '/RecordedSessions' exact component={RecordedSessions}/>
           <Route path = '/RegionalCenter' exact component={ RegionalCenter }/>
-          <Route path = '/GrowingTogether' exact component={GrowingTogether}/>
+          <Route path = '/Growing-Together' exact component={GrowingTogether}/>
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
