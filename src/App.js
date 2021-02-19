@@ -11,6 +11,7 @@ import POA_Resources from './components/POA_Resources/POA_Resources';
 import SupportServices from './components/SupportServices/SupportServices';
 import RecordedSessions from './components/RecordedSessions/RecordedSessions';
 import RegionalCenter from './components/RegionalCenter/RegionalCenter';
+import GrowingTogether from './components/GrowingTogether/GrowingTogether';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path ='/SupportServices'exact component={SupportServices}/>
           <Route path = '/RecordedSessions' exact component={RecordedSessions}/>
           <Route path = '/RegionalCenter' exact component={ RegionalCenter }/>
+          <Route path = '/GrowingTogether' exact component={GrowingTogether}/>
           {/* 
 
           Add your pages paths here. Remember to import like I did above.
