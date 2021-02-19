@@ -5,6 +5,7 @@ import './Edu.css';
 function Edu() {
   return (
     <div className="Edu">
+      <h1>test</h1>
       <h1 className='.eduh1'>Educational Resources</h1>
       <h2 className='.eduh2'>General Resources</h2>
 
