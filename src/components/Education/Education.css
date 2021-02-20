@@ -1,5 +1,6 @@
-.wrapper{
+.edu-container{
   margin-left: 12%;
+  background-color:#FFFCF8;
 }
 .eduh1{
   color: #556667;
@@ -19,7 +20,7 @@
   color: #556667;
   text-decoration: underline;
   text-decoration-color: #556667;
-  background-color: white;
+  background-color: none;
   border-style: solid;
   border-color: #CD9862;
   border-width: 2px;
@@ -62,6 +63,8 @@
   height: 4em;
   font-family: Verdana, sans-serif;
 }
+
+
 
 /*.btnRow{
   display: block;

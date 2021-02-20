@@ -4,8 +4,9 @@ import './Education.css';
 
 function Edu() {
   return (
-    <div className="Edu">
-      <div className="wrapper">
+    <div className="edu-container">
+  
+
       <h1 className="eduh1">Educational Resources</h1>
       <h2 className="eduh2">General Resources</h2>
 
@@ -35,7 +36,7 @@ function Edu() {
       </a>
       </div>
 
-      </div>
+
     </div>
   );
 }
