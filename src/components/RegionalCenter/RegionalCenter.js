@@ -12,14 +12,14 @@ function RegionalCenter() {
           <h2>About</h2>
 
           <a href="https://www.dds.ca.gov/">
-            <button class="a-btn"> 
-              <div class="uline">Department of Developmental Services</div>
+            <button className="a-btn"> 
+              <div className="uline">Department of Developmental Services</div>
           </button>
           </a>
 
           <a href="https://www.dds.ca.gov/rc/listings/">
-            <button class="a-btn"> 
-              <div class="uline">Listing of All Regional Centers in California</div>
+            <button className="a-btn"> 
+              <div className="uline">Listing of All Regional Centers in California</div>
           </button>
           </a>
 
@@ -28,7 +28,7 @@ function RegionalCenter() {
        <div className="regional-centers">
         
           <a href="http://www.altaregional.org/">
-          <button class="r-btn" > 
+          <button className="r-btn" > 
           <p className="uline">North Bay Regional Center</p>
             <p>
             610 Airpark Rd. <br/>
@@ -39,7 +39,7 @@ function RegionalCenter() {
           </a>
 
           <a href="https://nbrc.net/">
-          <button class="r-btn" > 
+          <button className="r-btn" > 
           <p className="uline">Alta California Regional Center</p>
             <p>
             241 Harvard Street <br/>
@@ -51,7 +51,7 @@ function RegionalCenter() {
           </a>
 
           <a href="https://www.farnorthernrc.org/about-us/">
-          <button class="r-btn" > 
+          <button className="r-btn" > 
           <p className="uline">Far Northern Regional Center</p>
             <p>
             Two locations: <br/>
@@ -62,7 +62,7 @@ function RegionalCenter() {
           </a>
  
           <a href="https://www.cvrc.org/">
-          <button class="r-btn" > 
+          <button className="r-btn" > 
           <p className="uline">Central Valley Regional Center</p>
             <p>
             Three locations: <br/>
@@ -74,7 +74,7 @@ function RegionalCenter() {
           </a>
 
           <a href="http://www.vmrc.net/">
-          <button class="r-btn" > 
+          <button className="r-btn" > 
           <p className="uline">Valley Mountain Regional Center</p>
             <p>
             Three locations: <br/>
@@ -88,8 +88,8 @@ function RegionalCenter() {
         </div>
         <div className="early-int">
             <h2> Early Intervention Process</h2>
-            <button class="i-btn"> <img src={image1} width="400" height="500" alt="hi"/> </button>
-            <button class="i-btn"> <img src={image2} width="400" height="500" alt="hihi"/> </button>
+            <button className="i-btn"> <img src={image1} width="400" height="500" alt="hi"/> </button>
+            <button className="i-btn"> <img src={image2} width="400" height="500" alt="hihi"/> </button>
         </div>
     </div>
   );
