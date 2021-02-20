@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 //import dispHeader from './edu-rsc.js';
-import './Edu.css';
+import './Education.css';
 
 function Edu() {
   return (
