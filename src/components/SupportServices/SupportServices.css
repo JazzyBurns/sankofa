@@ -1,8 +1,17 @@
+.Support-container
+{
+    margin-left: 12%;
+  background-color:#FFFCF8;
+}
+
 .SupportServices-body li
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    margin-right: 2em;
+    
 }
 h2
 {
@@ -12,25 +21,50 @@ h3
 {
     font-weight:bold;
 }
+
+.flexrow
+{
+    display:flex;
+    flex-direction: row;
+}
+.flexrow1
+{
+    display:flex;
+    flex-direction: row;
+}
+.flexCol
+{
+    display:flex;
+  flex-direction: column;
+
+}
 .Webbutton
 {
-    color: #556667;
-    text-decoration: underline;
-    text-decoration-color: #556667;
-    background-color: white;
-    border-style: solid;
-    border-color: #CD9862;
-    border-width: 2px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    border-radius: 10px;
-    height: 4em;
-    font-family: Verdana, sans-serif;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  color: #556667;
+  text-decoration: underline;
+  text-decoration-color: #556667;
+  background-color: #FFFCF8;
+  border-style: solid;
+  border-color: #CD9862;
+  border-width: 2px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 10px;
+  height: 4em;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  
+    
 }
+
 .Speechbutton
 {
+    margin-right: 1em;
+  margin-bottom: 1em;
     color: #556667;
     text-decoration: underline;
     text-decoration-color: #556667;
@@ -45,11 +79,16 @@ h3
     border-radius: 10px;
     height: 4em;
     font-family: Verdana, sans-serif;
-    
+    display:flex;
+  flex-direction: column;
+  text-align: center;
+  
     
 }
 .PTbutton
 {
+    margin-right: 1em;
+  margin-bottom: 1em;
     color: #556667;
     text-decoration: underline;
     text-decoration-color: #556667;
@@ -64,7 +103,12 @@ h3
     border-radius: 10px;
     height: 4em;
     font-family: Verdana, sans-serif;
+    
+    text-align: center;
+    display:flex;
+  flex-direction: column;
 }
+/*
 .Ptsections
 {
     margin-left: 12%;
@@ -83,6 +127,4 @@ h3
     display: block;
     margin-bottom: 2em;
 }
-.btnCol{
-    margin-right: 3em;
-  }
+*/
