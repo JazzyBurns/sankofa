@@ -1,11 +1,13 @@
-//import logo from './logo.svg';
-//import dispHeader from './edu-rsc.js';
+import { Helmet } from 'react-helmet';
 import './Education.css';
 
 function Edu() {
   return (
     <div className="edu-container">
-  
+      <Helmet>
+        <title>Sankofa | Educational Resources</title>
+        <style>{'body {background-color: #FFFCF8; }'}</style>
+      </Helmet>
 
       <h1 className="eduh1">Educational Resources</h1>
       <h2 className="eduh2">General Resources</h2>
@@ -35,7 +37,6 @@ function Edu() {
         <button className="edubutton">Sonoma County CAC</button>
       </a>
       </div>
-
 
     </div>
   );
