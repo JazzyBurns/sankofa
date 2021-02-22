@@ -1,9 +1,9 @@
 .resources-container
 {
     box-sizing: border-box;
-    margin: 0 auto;
+    padding: 0 10%;
     padding-top: 25px;
-    width: 80%;
+    background-color: #FFFCF8;
     color: #556667;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -56,7 +56,7 @@
     font-weight: bold;
 }
 
-@media (min-width: 800px)
+@media (min-width: 900px)
 {
 
     .res-card-container

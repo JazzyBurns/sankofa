@@ -1,10 +1,10 @@
 .testimony-container
 {
     box-sizing: border-box;
-    margin: 0 auto;
+    padding: 0 10%;
     padding-top: 25px;
+    background-color: #FFFCF8;
     color: #556667;
-    width: 80%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
