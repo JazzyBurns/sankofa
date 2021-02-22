@@ -77,6 +77,9 @@
 
 /* tablet and laptop */
 @media only screen and (min-width: 768px) {
+    .POA-title {
+        font-size: 2em;
+    }
     .rectangle1 {
         border-width: 2px;
     }
