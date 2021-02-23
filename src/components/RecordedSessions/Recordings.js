@@ -4,7 +4,7 @@ import './Recordings.css';
 
 function Recordings() {
   return (
-    <div className="container">
+    <div className="recordingsContainer">
       <div className="children"><RecordingCard/></div>
       <div className="children"><RecordingCard/></div>
       <div className="children"><RecordingCard/></div>

@@ -5,7 +5,7 @@ function RecordingCard() {
   return (
     <div>
       <div className="rectangle"></div>
-      <h3 style={{marginLeft: '107px', fontWeight:"bold"}}>Date of Meeting</h3>
+      <h3 className="meetingInfo">Date of Meeting</h3>
       <button className="RecBtn">Click here for recording</button>
     </div>
   )

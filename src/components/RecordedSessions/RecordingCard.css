@@ -1,6 +1,14 @@
+.meetingInfo {
+  margin-left: 80px;
+  font-weight: bold;
+}
+
 .rectangle {
-  width: 371px;
-  height: 274px;
+  width: 290px;
+  height: 214px;
+
+  margin-left: 15px;
+
   border: solid 5px #CD9B62;
   border-radius: 15px;
 }
@@ -9,7 +17,7 @@
   width: 321px;
   height: 48px;
 
-  margin-left: 26px;
+  margin-left: 10px;
   margin-bottom: 50px;
 
   background-color: #B6D9D3;
@@ -24,13 +32,45 @@
   font-size: 14pt;
   font-weight: bold;
 }
-.btn:hover {
+.RecBtn:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-@media screen and (max-width: 414px) {
+@media only screen and (min-width: 768px) {
+  .meetingInfo {
+    text-align: center;
+  }
+  
   .rectangle {
-    width: 350px;
+    width: 371px;
+    height: 274px;
+  
+    margin-left: 75px;
+  
+    border: solid 5px #CD9B62;
+    border-radius: 15px;
+  }
+  .RecBtn {
+    margin-left: 103px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .meetingInfo {
+    margin-left: -225px;
+  }
+  
+  .rectangle {
+    width: 371px;
+    height: 274px;
+  
+    margin-left: 75px;
+  
+    border: solid 5px #CD9B62;
+    border-radius: 15px;
+  }
+  .RecBtn {
+    margin-left: 103px;
   }
 }

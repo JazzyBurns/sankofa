@@ -1,18 +1,11 @@
-.container {
-  display: inline-flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.children {
-  flex: 0 0 50%;
-}
-
-@media screen and (max-width: 1024px) {
- .container {
-   justify-content: space-evenly;
- }
- .children {
-   flex: 0;
- }
+@media only screen and (min-width: 1000px) {
+  .recordingsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    width: 100%;
+  }
+  .children {
+    flex: 0 0 40%;
+  }
 }
