@@ -16,7 +16,7 @@ function Home() {
                 
                 <img className="home-img" src="images/landing-img.png" alt="Landing"/>
                 
-                <div className="about">
+                <div className="about-sankofa">
                     <h1>What is Sankofa?</h1>
                     <p>
                         The word Sankofa comes from an African language which means “go back and fetch it” which is significant to the 

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './components/Homepage/Home';
+import Home from './components/Home/Home';
 import Edu from './components/Education/Edu';
 import Direct from './components/Directory/Directory';
 import Testim from './components/Testimonies/Testimonies';
