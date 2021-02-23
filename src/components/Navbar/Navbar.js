@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -19,28 +19,52 @@ function Navbar() {
 
             <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
                 <li className="nav-links" id="home-link">
-                    <Link to='/' onClick={ closeMobileMenu }>Home</Link>
+                    <NavLink exact to='/' onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Home
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to='/directory' onClick={ closeMobileMenu }>Directory</Link>
+                    <NavLink to='/directory' onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Directory
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/about-us" onClick={ closeMobileMenu }>About Us</Link>
+                    <NavLink to="/about-us" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        About Us
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/regional-center" onClick={ closeMobileMenu }>Regional Center</Link>
+                    <NavLink to="/regional-center" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Regional Center
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/testimonies" onClick={ closeMobileMenu }>Testimonies</Link>
+                    <NavLink to="/testimonies" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Testimonies
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/growing-together" onClick={ closeMobileMenu }>Growing Together</Link>
+                    <NavLink to="/growing-together" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Growing Together
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/resources" onClick={ closeMobileMenu }>Resources</Link>
+                    <NavLink to="/resources" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Resources
+                    </NavLink>
                 </li>
                 <li className="nav-links">
-                    <Link to="/contact-us" onClick={ closeMobileMenu }>Contact Us</Link>
+                    <NavLink to="/contact-us" onClick={ closeMobileMenu }
+                    activeStyle={{background: "#FFFCF8", color: "#556667"}}>
+                        Contact Us
+                    </NavLink>
                 </li>
             </ul>
         </div>

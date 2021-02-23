@@ -103,9 +103,8 @@
         position: absolute;
         top: 100px;
         left: -100%;
-        height: 100vh;
+        height: 108%;
         transition: all 0.5s ease;
-        padding: 6%;
         padding: 0;
         margin: auto;
     }
@@ -114,11 +113,11 @@
         background-color: #FFFCF8;
         align-items: center;
         text-align: center;
-        left: -3%;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        padding-top: 15px;
     }
 
     .nav-menu a {
