@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import AboutUs from './components/AboutUs/AboutUs';
 import Edu from './components/Education/Edu';
 import Direct from './components/Directory/Directory';
 import Testim from './components/Testimonies/Testimonies';
@@ -23,6 +24,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={ Home } />
+          <Route path='/about-us' exact component={ AboutUs }/>
           <Route path='/Education' exact component={ Edu } />
           <Route path='/Directory' exact component={ Direct } />
           <Route path='/Testimonies' exact component={ Testim } />

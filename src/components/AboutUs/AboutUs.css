@@ -1,0 +1,213 @@
+.about-us-container {
+    background-color: #FFFCF8;
+    font-family: Verdana, sans-serif;
+    color: #627677;
+    font-size: 18px;
+    margin-top: 4%;
+    margin-left: 12%;
+    margin-right: 6.8%;
+}
+
+.about-us-container h1 {
+    font-size: 36px;
+}
+
+.about-us-container h2 {
+    font-size: 28px;
+    margin-top: 8%;
+    margin-bottom: -0.5%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    width: 320%;
+    margin-left: 75px;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about-quote {
+    display: none;
+}
+
+.topics {
+    display: flex;
+}
+
+.topics ul {
+    margin-left: -3%;
+    line-height: 40px;
+}
+
+.topics-text {
+    margin-right: 5%;
+}
+
+.topic-quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    padding: 30px 70px;
+    padding: 3% 6%;
+    width: 55%;
+
+    font-family: PT Serif;
+    color: #556667;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 11px solid #F0C676;
+    text-align: center;
+    
+}
+
+.goals {
+    width: 95%;
+}
+
+.goals h2 {
+    margin-top: 4%;
+}
+
+.goals ul {
+    margin-left: -1.7%;
+    line-height: 40px;
+}
+
+.about-us-buttons {
+    text-align: center;
+    margin-left: -30px;
+    margin-left: -7%;
+}
+
+.about-us-buttons button{
+    margin: 65px;
+    background-color: #B6D9D3;
+    border: none;
+    border-radius: 15px;
+    padding: 44px 90px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-us-buttons a {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #556667;
+}
+
+@media (max-width: 1139px) {
+    .topic-quote {
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width: 947px) {
+    .about {
+        display: block;
+    }
+    .about-img {
+        display: none;
+    }
+
+    .about-quote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 4%;
+        padding: 30px 70px;
+        padding: 5% 9%;
+        width: 30%;
+    
+        font-family: PT Serif;
+        color: #556667;
+        font-size: 2.7vw;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+        border-radius: 50%;
+        border: 11px solid #F0C676;
+        text-align: center;    
+    }
+
+    .topic-quote {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .about-quote {
+        padding: 3% 10%;
+    }
+}
+
+@media (max-width: 692px) {
+    .about-quote {
+        font-size: 22px;
+        width: 40%;
+        
+    }
+}
+
+@media (max-width: 490px) {
+    .about-us-container h2 {
+        font-size: 25px;
+    }
+
+    .about-us-container p, ul {
+        font-size: 14px;
+    }
+
+    .about-quote {
+        /* font-size: 22px; */
+        width:50%;
+        /* padding: 5% 20%; */
+    }
+
+    .about-quote p {
+        font-size: 22px;
+    }
+
+    #about-title {
+        display: none;
+    }
+
+    .topics ul {
+        line-height: 17px;
+        margin-left: -9%;
+    }
+
+    .topics li {
+        padding: 5px;
+    }
+
+    .goals ul {
+        line-height: 17px;
+        margin-left: -9%;
+    }
+
+    .goals li {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 392px) {
+    .about-quote {
+        width: 65%;
+        padding-top: 6%;
+    }
+}
