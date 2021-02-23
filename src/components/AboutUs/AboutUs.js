@@ -88,8 +88,8 @@ function AboutUs() {
                 </div>
 
                 <div className="about-us-buttons">
-                    <button className="f-button">
-                        <Link to="/facilitators" className="f-text">Facilitators</Link>
+                    <button className="facilitators-button">
+                        <Link to="/facilitators" className="facilitators-text">Facilitators</Link>
                     </button>
 
                     <button className="contact-button">
