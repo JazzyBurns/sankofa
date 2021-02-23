@@ -1,9 +1,14 @@
 import './POA_Resources.css';
+import { Helmet } from 'react-helmet';
 
 function POA_Resources() {
     return(
-        <div className="POA-color">
         <div className="POA-container">
+            
+            <Helmet>
+                <title>Sankofa | Policy, Outreach, and Advocacy Resources</title>
+                <style>{'body {background-color: #FFFCF8; }'}</style>
+            </Helmet>
 
             <h1 className="POA-title">Policy, Outreach, and Advocacy Resources</h1>
 
@@ -21,7 +26,6 @@ function POA_Resources() {
             </a> 
             </div>
 
-        </div>
         </div>
     );
 }
