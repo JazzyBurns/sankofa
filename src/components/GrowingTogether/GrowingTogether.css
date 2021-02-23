@@ -1,82 +1,137 @@
 .WholePage {
-    position: relative;
-    width: 1440px;
-    height: 1054px;
+    box-sizing: border-box;
     background: #FFFCF8;
     font-family: Verdana;
     color: #556667;
     font-style: normal;
+    padding-top: 30px;
 }
 
-.GrowingTogether {
-    position: absolute;
-    width: 365px;
-    height: 44px;
-    left: 172px;
-    top: 232px;
-
+.WholePage h1 {
+    margin: 0;
+    padding: 30px 170px 0px;
     font-weight: bold;
     font-size: 36px;
     line-height: 44px;
 }
 
-.HowToHelp{
-    position: absolute;
-    width: 1095px;
-    height: 83px;
-    left: 172px;
-    top: 308px;    
-    
-    text-align: left;
+.HowToHelp {
+    padding: 30px 185px 0px;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
 }
 
-.One{
-    position: absolute;
-    width: 184px;
-    height: 120px;
-    left: 172px;
-    top: 425px;
+.Container {
+    display: flex;
+    flex-direction: column;
+}
 
+.RowOne {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.One {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 0px;
+    padding-right: 50px;
     font-weight: normal;
     font-size: 144px;
     line-height: 120px;
+}
+
+.Partner {
+    margin: 0;
+    width: 406px;
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.RowTwo {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .Two {
-    position: absolute;
-    width: 184px;
-    height: 120px;
-    left: 621px;
-    top: 665px;
-
+    margin: 0;
+    padding-top: 50px;
     font-weight: normal;
     font-size: 144px;
     line-height: 120px;
 }
 
-.Partner{
-    position: absolute;
+.Share {
     width: 406px;
-    height: 206px;
-    left: 412px;
-    top: 425px;
+    padding-left: 50px;
+    padding-right: 180px;
+    padding-top: 20px;
+    padding-bottom: 80px;
 
     font-weight: normal;
     font-size: 28px;
     line-height: 34px;
 }
 
-.Share {
-    position: absolute;
-    width: 406px;
-    height: 203px;
-    left: 861px;
-    top: 665px;
+@media only screen and (max-width: 768px) {
+    .WholePage h1 {
+        margin: 0;
+        padding: 0px 0px 0px;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .HowToHelp {
+        padding: 30px 0px 0px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
 
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 34px;
+    .RowOne {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .One {
+        font-size: 90px;
+        line-height: 83.68%;
+        text-align: center;
+        padding: 30px 0px 0px;
+    }
+
+    .Partner {
+        padding-top: 40px;
+        width: 208px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+
+    .RowTwo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Two {
+        font-size: 90px;
+        line-height: 83.68%;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .Share {
+        margin: 0;
+        width: 251px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding: 0px 125px 100px;
+    }
 }
