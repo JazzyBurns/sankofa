@@ -1,4 +1,5 @@
 import './Testimonies.css';
+import image from './testimony_image.jpg'
 
 function Testim() {
   return (
@@ -15,6 +16,9 @@ function Testim() {
         <div className="testimony">
             <p className="testimony-quote">“The Sankofa Group to me in three words: Support, Safety, and Resources for us.”</p>
             <p className="client">- Tomorrow, Grandmother of Child with DD</p>
+        </div>
+        <div>
+          <img src={image} width="1000" height="400" alt="photo"/>
         </div>
     </div>
   );
