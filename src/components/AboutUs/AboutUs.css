@@ -190,7 +190,8 @@
     .about-quote {
         font-size: 22px;
         width: 40%;
-        
+        margin-top: 8%;
+        margin-bottom: 8%;
     }
 }
 
