@@ -8,8 +8,9 @@ function RegionalCenter() {
         <div>
           <h1>Regional Center</h1>
         </div>
-        <div className="about">
-          <h2>About</h2>
+
+        <h2>About</h2>
+        <div className="rc-about">
 
           <a href="https://www.dds.ca.gov/">
             <button className="a-btn"> 
@@ -24,6 +25,7 @@ function RegionalCenter() {
           </a>
 
        </div>
+
        <h2>Regional Centers</h2>
        <div className="regional-centers">
         
