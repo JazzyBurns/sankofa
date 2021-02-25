@@ -1,3 +1,15 @@
+.pptCardContainer {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+  height: 375px;
+  align-items: center;
+}
+.imgPpt {
+  width: 290px;
+  height: 214px;
+  border-radius: 10px;
+}
 .pptRectangle {
   width: 290px;
   height: 214px;
@@ -9,7 +21,7 @@
   width: 263px;
   height: 48px;
   
-  margin-left: 15px;
+  /* margin-left: 15px; */
   margin-bottom: 50px;
 
   background-color: #B6D9D3;
@@ -27,4 +39,5 @@
 .pptBtn:hover {
   text-decoration: underline;
   cursor: pointer;
+  background-color: #d1f5ef;
 }

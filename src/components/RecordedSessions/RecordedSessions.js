@@ -9,7 +9,7 @@ function RecordedSessions() {
       <h1>Recorded Sessions & Powerpoints</h1>
       <h2>Recorded Sessions</h2>
       <Recordings/>
-      <h2>Powerpoints</h2>
+      <h2 style={{marginRight:'75px'}}>Powerpoints</h2>
       <Powerpoints/>
     </div>
   );

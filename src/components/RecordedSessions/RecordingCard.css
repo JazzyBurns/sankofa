@@ -1,23 +1,30 @@
+.recCardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 450px;
+  align-items: center;
+}
 .meetingInfo {
-  margin-left: 80px;
   font-weight: bold;
 }
 
-.rectangle {
+.recRectangle {
   width: 290px;
   height: 214px;
-
-  margin-left: 15px;
 
   border: solid 5px #CD9B62;
   border-radius: 15px;
 }
-
+.imgRec {
+  width: 290px;
+  height: 214px;
+  border-radius: 10px;
+}
 .RecBtn {
   width: 321px;
   height: 48px;
 
-  margin-left: 10px;
   margin-bottom: 50px;
 
   background-color: #B6D9D3;
@@ -35,42 +42,33 @@
 .RecBtn:hover {
   text-decoration: underline;
   cursor: pointer;
+  background-color: #d1f5ef;
 }
 
 @media only screen and (min-width: 768px) {
-  .meetingInfo {
-    text-align: center;
-  }
-  
-  .rectangle {
+  .recRectangle {
     width: 371px;
     height: 274px;
-  
-    margin-left: 75px;
   
     border: solid 5px #CD9B62;
     border-radius: 15px;
   }
-  .RecBtn {
-    margin-left: 103px;
+  .imgRec {
+    width: 371px;
+    height: 274px;
+    border-radius: 10px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .meetingInfo {
-    margin-left: -225px;
-  }
-  
-  .rectangle {
+  .recRectangle {
     width: 371px;
     height: 274px;
-  
-    margin-left: 75px;
-  
+    
     border: solid 5px #CD9B62;
     border-radius: 15px;
   }
-  .RecBtn {
-    margin-left: 103px;
+  .recCardContainer {
+    margin-left: 18%;
   }
 }
