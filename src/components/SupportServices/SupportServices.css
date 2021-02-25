@@ -2,27 +2,43 @@
  
 .Support-container
 {
- margin: auto;
- width:80%;
- background-color:#FFFCF8;
+ margin: 3% 8%;
+ 
+ 
+}
+.Support-Title
+{
+   font-family: Verdana, sans-serif;
+   font-size: 25px;
 }
  
 .SupportServices-body li
 {
+   
    list-style-type: none;
+   /*
    margin: 0;
    padding: 0;
+   */
+   margin:auto;
+   width:80%;
    font-size: 18px;
    margin-right: 2em;
   
 }
+
 h2
 {
    font-weight:bold;
+
 }
 h3
 {
+   margin:auto;
+   width:80%;
+   font-size: 18px;
    font-weight:bold;
+   margin-right: 2em;
 }
  
 .flexrow
@@ -49,18 +65,19 @@ h3
  color: #556667;
  text-decoration: underline;
  text-decoration-color: #556667;
- background-color: #FFFCF8;
  border-style: solid;
  border-color: #CD9862;
+ background-color:white;
  border-width: 4.5px;
  padding-top: 1em;
  padding-bottom: 1em;
  padding-left: 1.5em;
  padding-right: 1.5em;
  border-radius: 12px;
- height: 6em;
+ height: 4.5em;
  font-family: Verdana, sans-serif;
- text-align: center;
+ text-align: left;
+ font-size: 15px;
  
   
 }
@@ -112,11 +129,63 @@ h3
 /*Tablet*/
 @media only screen and ( min-width:768px)
 {
+   .SupportServices-body li
+   {
+      
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      margin-right: 2em;
+     
+   }
+   h3
+   {
+      
+   
+      margin:auto;
+      width:100%;
+      font-size: 18px;
+      font-weight:bold;
+      margin-right: 2em;
+   }
+   .flexrow
+ {
+     display:flex;
+     flex-direction: row;
+ }
+ .flexrow1
+{
+   display:flex;
+   flex-direction: row;
+}
+.Support-Title
+{
+   font-family: Verdana, sans-serif;
+   font-size: 36px;
+}
  .Webbutton
  {
-   width:auto;
-   border-width: 1px;
+   /*width:auto;*/
+   margin-right: 1em;
+ margin-bottom: 1em;
+   color: #556667;
+   text-decoration: underline;
+   text-decoration-color: #556667;
+   background-color: white;
+   border-style: solid;
+   border-color: #CD9862;
+   border-width: 4.5px;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   padding-left: 2em;
+   padding-right: 2em;
+   border-radius: 10px;
    height: 4em;
+   font-family: Verdana, sans-serif;
+   text-align: center;
+   font-size: 15px;
+   
  }
  .Speechbutton
  {
@@ -130,6 +199,34 @@ h3
 /*Desktop*/
 @media only screen and ( min-width:1000px)
 {
+
+.SupportServices-body li
+{
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   margin-right: 2em;
+  
+}
+h3
+{
+   
+
+   margin:auto;
+   width:100%;
+   font-size: 18px;
+   font-weight:bold;
+   margin-right: 2em;
+}
+
+
+.Support-Title
+{
+   font-family: Verdana, sans-serif;
+   font-size: 36px;
+}
  .flexrow
  {
      display:flex;
@@ -151,7 +248,7 @@ h3
    background-color: white;
    border-style: solid;
    border-color: #CD9862;
-   border-width: 2px;
+   border-width: 4.5px;
    padding-top: 0.5em;
    padding-bottom: 0.5em;
    padding-left: 2em;
@@ -159,7 +256,8 @@ h3
    border-radius: 10px;
    height: 4em;
    font-family: Verdana, sans-serif;
- 
+   text-align: center;
+   font-size: 15px;
   
 }
 }
