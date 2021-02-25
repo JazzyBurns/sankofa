@@ -1,9 +1,18 @@
+.direct{
+  background-color: #FFFCF8;
+  font-family: Verdana, sans-serif;
+  color: #556667;
+  font-size: 18px;
+  padding-bottom: 6%;
+}
 
-.direct-h1 {
+.direct-container-title {
   width:80%;
-  margin:auto;
+  margin-left: auto;
+  margin-right: auto;
   font-size: bold;
-  margin-bottom: 6%;
+  
+  color: #556667;
 }
 
 .direct-container1 p {
@@ -11,7 +20,8 @@
   font-family: Verdana, sans-serif;
   width:80%;
   margin:auto;
-  margin-bottom: 6%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .direct-container2 p {
@@ -19,41 +29,44 @@
   font-family: Verdana, sans-serif;
   width:80%;
   margin:auto;
-  margin-bottom: 6%;
+  padding-bottom: 6%;
 }
 
-.direct-container3 div{
-  text-decoration: none;
+.direct-button {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: #B6D9D3;
+  border: none;
+  border-radius: 15px;
+  padding: 13px 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
   
 .direct-button-text {
   background-color: transparent;
+  text-decoration: none;
+  border: none;
+  font-family: Verdana, sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
   color: #556667;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 6%;
-  position: relative;
-  background-color: #B6D9D3;
-  border: none;
-  border-radius: 15px;
-  padding: 1.15% 3.8%;
-  box-shadow: 0px 4px 25px rgba(178, 178, 178, 0.25);
+
 }
 
-@media (max-width: 1200px) {
-  .direct-container {
-      font-size: 1.5vw;
-  }
+.direct-button:hover {
+  background-color: #d1f5ef;
+}
 
+@media (max-width: 600px) {
   .direct-container-title {
       font-size: 3vw;
   }
 
-  .joins-us-button {
+  .direct-button {
       margin: 3% auto;
   }
 
@@ -61,4 +74,44 @@
       font-size: 3% auto;
   }
 
+  .direct-container1{
+    padding-bottom: 5% auto;
+  }
+
+  .direct{
+    padding-bottom: 5% auto;
+  }
+  
+
 }
+
+/*
+@media (max-width: 970px) {
+    .-container {
+        margin: 3% 8%;
+    }
+
+    .home-container h1 {
+        text-align: center;
+    }
+}
+*/
+
+/* Mobile */
+/*
+@media (max-width: 693px) {
+    .home-container {
+        font-size: 14px;
+    }
+
+    .home-container h1 {
+        font-size: 25px;
+        margin-top: 42px;
+        margin-bottom: 30px;
+    }
+
+    .learn-more-text {
+        font-size: 14px;
+    }
+}
+*/
