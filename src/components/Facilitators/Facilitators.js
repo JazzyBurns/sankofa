@@ -3,6 +3,7 @@ import './Facilitators.css';
 function Facilitate() {
     return (
         <div className="facilitate">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
             <h1 className="Facilitate-title">Facilitators</h1>
             <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="Elizabeth Morgan"></img>
             <h2 className="Facilitate-nametag">Elizabeth Morgan</h2>

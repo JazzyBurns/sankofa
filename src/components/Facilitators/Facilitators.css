@@ -1,27 +1,102 @@
-.Facilitate-title{
+.Facilitate-title {
+    font: Verdana;
+    font-weight: bold;
     color: grey;
     padding-left: 10%;
-    font: Arial;
+    font-size: large;
 }
-
 .portrait {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 400px;
-    border-radius: 25px;
-    border: 4px solid orange;
+    max-width: 25%;
+    border-radius: 5%;
+    border: 2px solid #cd9b62;
 }
-
-.Facilitate-nametag{
+.Facilitate-nametag {
     text-align: center;
-    color: grey;
+    color: #556667;
+    font: Verdana;
+    font-size: initial;
+}
+.BioBlurb {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font: Verdana;
+    color: #556667;
+    font-size: initial;
+    text-align: left;
 }
 
-.BioBlurb {
-    padding-top: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-bottom: 120px;
-    color: black;
+@media only screen and (min-width: 700px) {
+    .Facilitate-title{
+        color: #556667;
+        padding-left: 10%;
+        font: Verdana;
+        font-size: xx-large;
+    }
+    
+    .portrait {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 25%;
+        border-radius: 5%;
+        border: 5px solid #cd9b62;
+    }
+    
+    .Facilitate-nametag{
+        text-align: center;
+        color: #556667;
+        font: Verdana;
+        font-size: x-large;
+    }
+    
+    .BioBlurb {
+        padding-top: 20px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 70px;
+        text-align: left;
+        font: Verdana;
+        color: #556667;
+        font-size: larger;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .Facilitate-title{
+        color: #556667;
+        padding-left: 10%;
+        font: Verdana;
+        font-size: xx-large;
+    }
+    
+    .portrait {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+        border-radius: 5%;
+        border: 5px solid #cd9b62;
+    }
+    
+    .Facilitate-nametag{
+        text-align: center;
+        color: #556667;
+        font: Verdana;
+        font-size: x-large;
+    }
+    
+    .BioBlurb {
+        padding-top: 20px;
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-bottom: 100px;
+        text-align: left;
+        font: Verdana;
+        color: #556667;
+        font-size: x-large;
+    }
 }
