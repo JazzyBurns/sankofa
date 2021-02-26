@@ -1,8 +1,10 @@
 .recordedSessions {
   display: flex;
   flex-direction: column;
+  /* overflow-x hidden may cause issues */
+  overflow-x: hidden; 
   align-items: center;
-
+  background-color: #FFFCF8;
   font-family: Verdana, sans-serif;
   font-weight: 700;
   color: #556667;

@@ -1,9 +1,14 @@
 import './Testimonies.css';
 import image from './testimony_image.jpg'
+import { Helmet } from 'react-helmet'
 
 function Testim() {
   return (
     <div className="testimony-container">
+        <Helmet>
+          <title>Sankofa | Testimonies</title>
+          <style>{'body {background-color: #FFFCF8; }'}</style>
+        </Helmet>
         <h1>Testimonies</h1>
         <div className="testimony">
             <p className="testimony-quote">“My confidence level for creating opportunity for my family is continually increasing. By taking the initiative to access services and supports for positive lifestyle changes, I have become a strong advocate for my children.”</p>
@@ -18,7 +23,7 @@ function Testim() {
             <p className="client">- Tomorrow, Grandmother of Child with DD</p>
         </div>
         <div>
-          <img src={image} width="1000" height="400" alt="photo"/>
+          <img className="feature-pic" src={image} width="1000" height="400" alt="photo"/>
         </div>
     </div>
   );

@@ -13,28 +13,38 @@ function Contact() {
       <div className="body">
         <div className="contact-info">
           
-          <img src={mail} className="icon" alt="Mail"/>
-          <p className="contact-text">Jasmin Burns: jlsheppard@ucdavis.edu</p>
+          <div className="email-contact">
+            <img src={mail} className="icon" alt="Mail"/>
+            <p className="contact-text">Jasmin Burns: jlsheppard@ucdavis.edu</p>
+          </div>
 
           <br></br>
           <br></br>
           
-          <img src={phone} className="icon" alt="Phone"/>
-          <p className="contact-text">916-703-0403</p>
+          <div className="phone-contact">
+            <img src={phone} className="icon" alt="Phone"/>
+            <p className="contact-text">916-703-0403</p>
+          </div>
 
         </div>
 
         <h2 className="subheading"> Find us on Facebook </h2>
 
         <div className="icon-contact">
-          <img src={fb} className="fb-icon" alt="Facebook"/>
-          <p className="fb-text">Sankofa Facebook Page</p>
-      
+
+          <div class="sankofa-fb">
+            <img src={fb} className="icon" alt="Facebook"/>
+            <p className="fb-text">Sankofa Facebook Page</p>
+          </div>
+
           <br></br>
           <br></br>
           
-          <img src={fb} className="fb-icon" alt="Facebook"/>
-          <p className="fb-text">Sankofa Facebook Parent Support Group</p>
+          <div class="sankofa-fb-parent">
+            <img src={fb} className="icon" alt="Facebook"/>
+            <p className="fb-text">Sankofa Facebook Parent Support Group</p>
+          </div>
+
         </div>
 
         <br></br>
@@ -47,7 +57,7 @@ function Contact() {
             action="contact-form-process.php"></form>
 
             <div class="same-row">
-              <div class="fcf-form-group">
+              <div class="fcf-form-group name-box">
                 <label for="Name" class="fcf-label">Name</label>
                 <div class="fcf-input-group name-css">
                   <input type="text" id="Name" name="Name" class="fcf-form-control" required></input>
@@ -56,7 +66,7 @@ function Contact() {
 
               <br></br>
 
-              <div class="fcf-form-group" id="email-box">
+              <div class="fcf-form-group email-box">
                 <label for="Email" class="fcf-label">Email address</label>
                 <div class="fcf-input-group email-css">
                     <input type="email" id="Email" name="Email" class="fcf-form-control" required></input>
@@ -107,7 +117,7 @@ function Contact() {
             <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-us-form.php">
               
               <div class="same-row">
-                <div class="fcf-form-group">
+                <div class="fcf-form-group name-box">
                   <label for="Name" class="fcf-label">Name</label>
                   <div class="fcf-input-group name-css">
                     <input type="text" id="Name" name="Name" class="fcf-form-control" required></input>
@@ -116,7 +126,7 @@ function Contact() {
 
                 <br></br>
 
-                <div class="fcf-form-group">
+                <div class="fcf-form-group email-box">
                   <label for="Email" class="fcf-label" id="email-box">Email address</label>
                   <div class="fcf-input-group email-css">
                     <input type="email" id="Name" name="Name" class="fcf-form-control" required></input>

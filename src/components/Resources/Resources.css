@@ -1,32 +1,42 @@
-.resources-container
+.resources-container 
 {
     box-sizing: border-box;
     padding: 0 10%;
     padding-top: 25px;
-    background-color: #FFFCF8;
     color: #556667;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 60px;
 }
 
-.resources-container h1
+.resources-container h1 
 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     margin: 0;
+    margin-bottom: 40px;
 }
 
-.res-card-container
+.res-card-container 
 {
-    margin-top: 40px;
-    padding-bottom: 150px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
+    justify-content: center;
+    
+    /* https://coryrylan.com/blog/css-gap-space-with-flexbox */
+    --gap: 25px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
 }
 
-.card-link
+.res-card-container > * 
+{
+    margin: var(--gap) 0 0 var(--gap);
+}
+
+.card-link 
 {
     background-color: #B6D9D3;
     border-radius: 15px;
@@ -44,39 +54,54 @@
     box-shadow: 0 4px 25px rgba(178, 178, 178, 0.25);
 }
 
-.card-link span
+.card-link:hover 
+{
+    background-color: #d1f5ef;
+}
+
+.card-link span 
 {
     background-color: inherit;
 }
 
-.client
+.client 
 {
     margin: 0 44px;
     margin-top: 38px;
     font-weight: bold;
 }
 
-@media (min-width: 900px)
+@media (min-width: 900px) 
 {
-
-    .res-card-container
-    {
-        margin-top: 80px;
-        gap: 69px 84px;
-    }
-
-    .resources-container
+    .resources-container 
     {
         padding-top: 69px;
+        padding-bottom: 150px;
     }
 
-    .resources-container h1
+    .resources-container h1 
     {
         text-align: left;
         font-size: 36px;
+        margin-bottom: 80px;
     }
 
-    .card-link
+    .res-card-container 
+    {
+        --gapX: 84px;
+        --gapY: 69px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: calc(-1 * var(--gapY)) 0 0 calc(-1 * var(--gapX));
+        width: calc(100% + var(--gapX));
+    }
+    
+    .res-card-container > * 
+    {
+        margin: var(--gapY) 0 0 var(--gapX);
+    }
+
+    .card-link 
     {
         width: 310px;
         height: 150px;
@@ -84,3 +109,5 @@
         font-size: 24px;
     }
 }
+
+

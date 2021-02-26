@@ -4,108 +4,79 @@
     font-family: Verdana;
     color: #556667;
     background-color: #FFFCF8;
-  }
-  
-  .contact-us {
+}
+
+.contact-us {
     font-weight: bold;
-  }
-  
-  .contact-info p {
-    margin-left: 3vh;
-  }
-  
-  .contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    font-size: 3vh;
-  }
-  
-  .contact-info img {
-    vertical-align: middle;
-  }
-  
-  .subheading {
-    font-weight: bold;
-    font-size: 3vh;
-  }
-  
-  .icon {
-    /* margin-left: 1.5%; */
-    width: 4vh;
-    height: 4vh;
-  }
-  
-  .contact-text {
-    font-style: normal;
-    font-weight: normal;
-    display: inline;
-    margin-left: 4vh;
-    margin-right: 5vh;
-  }
-  
-  .fb-text {
-    text-decoration: underline;
-    font-style: normal;
-    font-weight: normal;
-    display: inline;
-    /* margin-left: 1.5%; */
-    margin-right: 5vh;
-  }
-  
-  .fb-icon {
-    width: 3vh;
-    height: 5vh;
-  }
-  
-        .icon-contact img {
-          vertical-align: middle;
-        }
-        
-        .icon-contact p {
-          margin-left: 3vh;
-        }
-        
-        .icon-contact {
-          display: flex;
-          align-items: center;
-          justify-content: left;
-          font-size: 3vh;
-        }
-  
-  #fcf-form {
+}
+
+.body img {
+    vertical-align: text-bottom;
+}
+
+.body p {
+    font-size: 1rem;
+}
+
+.body img, 
+.body p {
+    display: inline-block;
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+.contact-info img {
+    padding-right: 5%;
+}
+
+.contact-info p {
+    width: 70%;
+}
+
+.icon-contact {
+    display: inline-block;
+}
+
+.icon-contact img {
+    padding-right: 5%;
+}
+
+.icon-contact p {
+    width: 70%;
+}
+
+#fcf-form {
     display: block;
-  }
+}
   
-  #fcf-button {
+#fcf-button {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  label.fcf-label {
+label.fcf-label {
     display: inline-block;
-    margin-bottom: 0.5rem;
-  }
+}
   
-  .fcf-body {
+.fcf-body {
     margin: 0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
     background-color: #FFFCF8;
-    padding: 6vh;
-    padding-top: 4vh;
-    padding-bottom: 10px;
+    padding: 5% 10%;
     border: 5px solid #B6D9D3;
     border-radius: 15px;
     max-width: 100%;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  .fcf-input-group {
+.fcf-input-group {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -114,29 +85,15 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 100%;
-    
-  }
+}
   
-  .same-row {
+.same-row {
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    flex-direction: row;
-    
-  }
+    justify-content: space-between;
+    flex-flow: column wrap;   
+}
   
-  .name-css {
-    width: 20vw;
-    margin-right: 5vh;
-    
-  }
-  
-  .email-css {
-    width: 40vw;
-    
-  }
-  
-  .fcf-form-control {
+.fcf-form-control {
     display: block;
     width: 100%;
     height: 25px;
@@ -151,9 +108,9 @@
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
+}
   
-  .fcf-form-control-thick {
+.fcf-form-control-thick {
     display: block;
     width: 100%;
     height: calc(1.5em + 0.75rem + 100px);
@@ -168,23 +125,18 @@
     outline: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
+}
   
-  .fcf-form-group {
-    margin-bottom: 1rem;
-  }
-  
-  .wrapper {
+.wrapper {
     display: flex;
     justify-content: center;
-  }
+}
   
-  .fcf-btn:hover {
+.fcf-btn:hover {
     background-color: #d1f5ef;
-  }
+}
   
-  .fcf-btn {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.fcf-btn {
     display: flex;
     font-weight: 400;
     color: #212529;
@@ -204,46 +156,73 @@
     width: 154px;
     height: 48px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  }
+}
   
-  .fcf-btn-primary {
+.fcf-btn-primary {
     color: #556667;
     font-family: Verdana;
     font-weight: bold;
     background-color: #B6D9D3;
     border-color: #B6D9D3;
-  }
+}
   
-  @media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
     .fcf-btn {
         transition: none;
     }
-  }
-  
-  /* non-mobile formatting */
-  /* @media only screen and (min-width: 768px) {
-    .fcf-body {
-      margin: 0;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      text-align: left;
-      background-color: #FFFCF8;
-      padding-left: 8%;
-      padding-right: 8%;
-      padding-top: 20px;
-      padding-bottom: 10px;
-      border: 5px solid #B6D9D3;
-      border-radius: 15px;
-      max-width: 100%;
-      align-items: center;
-      justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-flow: row wrap;
     }
-  
-    .name-and-email {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between;
+
+    .contact-info .email-contact {
+        flex-basis: 58%;
     }
-  } */
+    
+    .contact-info .phone-contact {
+        flex-basis: 30%;
+    }
+
+    .contact-info img {
+        vertical-align: middle;
+    }
+
+    .icon-contact {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-flow: row wrap;
+    }
+
+    .icon-contact .sankofa-fb {
+        flex-basis: 35%;
+    }
+    
+    .icon-contact .sankofa-fb-parent {
+        flex-basis: 60%;
+    }
+
+    .icon-contact img {
+        vertical-align: middle;
+        padding-right: 10%;
+    }
+
+    .same-row {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;   
+    }
+
+    .same-row .name-box {
+        flex-basis: 30%;
+    }
+
+    .same-row .email-box {
+        flex-basis: 60%;
+    }
+}
