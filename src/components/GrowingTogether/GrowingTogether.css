@@ -7,7 +7,7 @@
     padding-top: 30px;
 }
 
-.WholePage h1 {
+.GrowingTogether {
     margin: 0;
     padding: 30px 170px 0px;
     font-weight: bold;
@@ -78,7 +78,7 @@
 }
 
 @media only screen and (max-width: 1000px){
-    .WholePage h1 {
+    .GrowingTogether {
         margin: 0;
         padding: 0px 0px 0px;
         text-align: center;
@@ -120,7 +120,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .WholePage h1 {
+    .GrowingTogether {
         font-size: 25px;
         line-height: 30px;
     }

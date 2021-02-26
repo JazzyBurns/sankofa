@@ -3,7 +3,7 @@ import './GrowingTogether.css';
 function GrowingTogether(){
     return (
         <div className = "WholePage">
-            <h1>Growing Together</h1>
+            <h1 className = "GrowingTogether">Growing Together</h1>
             <p className = "HowToHelp">How can you help?</p>
             <div className = "Container">
                 <div className = "RowOne">
