@@ -21,7 +21,7 @@
    padding: 0;
    */
    margin:auto;
-   width:80%;
+   width:90%;
    font-size: 18px;
    margin-right: 2.5em;
    margin-bottom: 2em;
@@ -90,15 +90,13 @@ h2
  border-width: 4.5px;
  padding-top: 0.5em;
  padding-bottom: 1.5em;
- padding-left: 2.2em;
- padding-right: 2em;
+ padding-left: 2em;
+ padding-right: 2.5em;
  border-radius: 12px;
- height: 4.5em;
+ height: 6em;
  font-family: Verdana, sans-serif;
- text-align: left;
  font-size: 14px;
- 
-  
+ text-align:left;
 }
 
  
@@ -115,6 +113,12 @@ h2
       margin-right: 2em;
      
    }
+
+   .Support-Title
+{
+   font-family: Verdana, sans-serif;
+   font-size: 36px;
+}
    .Support-Paragraph li
 {
    margin-bottom: 0em;
