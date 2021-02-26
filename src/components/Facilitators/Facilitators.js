@@ -1,8 +1,13 @@
+import { Helmet } from 'react-helmet';
 import './Facilitators.css';
 
 function Facilitate() {
     return (
         <div className="facilitate">
+            <Helmet>
+                <title>Sankofa | Facilitators</title>
+                <style>{'body { background-color: #FFFCF8; }'}</style>
+            </Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <h1 className="Facilitate-title">Facilitators</h1>
         <img src="https://i.imgur.com/FJkBRnc.jpg" alt="Elizabeth Morgan" className="portrait"></img>
