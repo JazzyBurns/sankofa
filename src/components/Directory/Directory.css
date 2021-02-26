@@ -82,34 +82,3 @@
   
 
 }
-
-/*
-@media (max-width: 970px) {
-    .-container {
-        margin: 3% 8%;
-    }
-
-    .home-container h1 {
-        text-align: center;
-    }
-}
-*/
-
-/* Mobile */
-/*
-@media (max-width: 693px) {
-    .home-container {
-        font-size: 14px;
-    }
-
-    .home-container h1 {
-        font-size: 25px;
-        margin-top: 42px;
-        margin-bottom: 30px;
-    }
-
-    .learn-more-text {
-        font-size: 14px;
-    }
-}
-*/
