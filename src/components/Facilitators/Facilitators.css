@@ -1,7 +1,12 @@
+.facilitate {
+    background-color: #e5e5e5;
+}
+
 .Facilitate-title {
-    font: Verdana;
+    margin-top: 0;
     font-weight: bold;
-    color: grey;
+    font: Verdana;
+    color: #556667;
     padding-left: 10%;
     font-size: large;
 }
