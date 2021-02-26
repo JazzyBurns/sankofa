@@ -22,7 +22,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px;
+    
+    /* https://coryrylan.com/blog/css-gap-space-with-flexbox */
+    --gap: 25px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
+}
+
+.res-card-container > * 
+{
+    margin: var(--gap) 0 0 var(--gap);
 }
 
 .card-link 
@@ -60,25 +71,6 @@
     font-weight: bold;
 }
 
-/* https://coryrylan.com/blog/css-gap-space-with-flexbox */
-
-@supports not ( gap: 25px ) 
-{
-    .card-flex-container 
-    {
-        --gap: 25px;
-        display: inline-flex;
-        flex-wrap: wrap;
-        margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
-        width: calc(100% + var(--gap));
-    }
-    
-    .card-flex-container > * 
-    {
-        margin: var(--gap) 0 0 var(--gap);
-    }
-}
-
 @media (min-width: 900px) 
 {
     .resources-container 
@@ -96,7 +88,17 @@
 
     .res-card-container 
     {
-        gap: 69px 84px;
+        --gapX: 84px;
+        --gapY: 69px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin: calc(-1 * var(--gapY)) 0 0 calc(-1 * var(--gapX));
+        width: calc(100% + var(--gapX));
+    }
+    
+    .res-card-container > * 
+    {
+        margin: var(--gapY) 0 0 var(--gapX);
     }
 
     .card-link 
@@ -105,24 +107,6 @@
         height: 150px;
         padding: 0 40px;
         font-size: 24px;
-    }
-    
-    @supports not ( gap: 69px 84px ) 
-    {
-        .card-flex-container 
-        {
-            --gapX: 84px;
-            --gapY: 69px;
-            display: inline-flex;
-            flex-wrap: wrap;
-            margin: calc(-1 * var(--gapY)) 0 0 calc(-1 * var(--gapX));
-            width: calc(100% + var(--gapX));
-        }
-    
-        .card-flex-container > * 
-        {
-            margin: var(--gapY) 0 0 var(--gapX);
-        }
     }
 }
 
