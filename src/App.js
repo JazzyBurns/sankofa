@@ -15,7 +15,7 @@ import RegionalCenter from './components/RegionalCenter/RegionalCenter';
 import GrowingTogether from './components/GrowingTogether/GrowingTogether';
 import MH_Resources from './components/MH_Resources/MH_Resources';
 import ContactUs from './components/ContactUs/ContactUs';
-
+import Facilitate from './components/Facilitators/Facilitators';
 
 
 
@@ -38,9 +38,10 @@ function App() {
           <Route path = '/Growing-Together' exact component={GrowingTogether}/>
           <Route path = '/MH_Resources' exact component={MH_Resources}/>
           <Route path = '/Contact-Us' exact component={ ContactUs }/>
+          <Route path = '/facilitators' exact component={ Facilitate }/>
           {/* 
 
-          Add your pages paths here. Remember to import like I did above.
+          Add your pages paths here. Remember to import.
 
           EXAMPLE:
           <Route path='/directory' component={Directory} />
