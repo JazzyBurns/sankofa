@@ -16,10 +16,6 @@
 .Support-Paragraph
 {
    list-style-type: none;
-   /*
-   margin: 0;
-   padding: 0;
-   */
    margin:auto;
    width:90%;
    font-size: 18px;
@@ -119,6 +115,26 @@ h2
    font-family: Verdana, sans-serif;
    font-size: 36px;
 }
+
+.WR
+{
+   
+   margin-bottom:1.5em;
+  
+}
+.SpeechLWR
+{
+  
+   margin-bottom:1.5em;
+   
+}
+.PTWR
+{
+   
+   margin-bottom:1.5em;
+   
+}
+
    .Support-Paragraph li
 {
    margin-bottom: 0em;
@@ -192,6 +208,7 @@ h2
    padding: 0;
    font-size: 18px;
    margin-right: 2em;
+   margin-bottom:2em;
   
 }
 .Support-Paragraph li
@@ -209,6 +226,24 @@ h2
    margin-right: 2em;
 }
 
+.WR
+{
+   
+   margin-bottom:1.5em;
+  
+}
+.SpeechLWR
+{
+  
+   margin-bottom:1.5em;
+   
+}
+.PTWR
+{
+   
+   margin-bottom:1.5em;
+   
+}
 
 .Support-Title
 {
