@@ -6,11 +6,8 @@ function SupportServices()
 
    return (
     <div className="Support-container">
-        <h2>Support Services Resources</h2>
-
-
         <div className="SupportServices-body">
-        
+                <h2 className="Support-Title">Support Services Resources</h2>
             <p>
                 <h3>Click to jump to section:</h3>
                 <li>Website Resources</li>
@@ -125,16 +122,19 @@ function SupportServices()
                     <button  className='Webbutton'>Jabber Gym</button>
                    
                     </a>
-                <a href="https://www.tesidea.com">
-                   
-                    <button  className='Webbutton'>Total Education Solutions</button>
-                   
-                    </a>
+               
                 <a href="http://www.sierrapediatrics.com">
                     
                     <button  className='Webbutton'>Sierra Pediatric Therapy Clinic</button>
                     
-                    </a>
+                </a>
+                
+                
+                <a href="https://www.tesidea.com">
+                   
+                   <button  className='Webbutton'>Total Education Solutions</button>
+                  
+                </a>
 
             </div>
        
