@@ -26,9 +26,14 @@
     font-size: 18px;
     text-align: center;
     margin-left: 33%;
+    cursor: pointer
+
 }
 .MH-underlined {
     text-decoration-line: underline;
+    font-size: 20px;
+    cursor: pointer
+
   }
 
 .MH-h2{
@@ -95,6 +100,8 @@
     border-radius: 10px;
     font-family: Verdana, sans-serif;
     flex-wrap: wrap;
+    cursor: pointer
+
 }
 
 /*desktop*/

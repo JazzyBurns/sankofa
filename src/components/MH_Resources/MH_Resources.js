@@ -10,7 +10,7 @@ function MH_Resources() {
       </Helmet>
 
       <h1 className="MH-h1">Mental Health Resources</h1>
-      <h3 className="MH-h3-title">Click to jump to section:</h3>
+      <h3 className="MH-h3-title">Click to jump to section: </h3><br/>
       <a href="#website_resources" className="MH-h3-normal">Website Resources <br/></a> 
       <a href="#autism_services" className="MH-h3-normal">Autism Services <br/></a> 
       <br/><br/><br/>
