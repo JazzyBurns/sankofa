@@ -3,6 +3,11 @@ import './GrowingTogether.css';
 function GrowingTogether(){
     return (
         <div className = "WholePage">
+            <Helmet>
+                <title>Sankofa | Growing Together</title>
+                <style>{'body {background-color: #FFFCF8; }'}</style>
+            </Helmet>
+            
             <h1 className = "GrowingTogether">Growing Together</h1>
             <p className = "HowToHelp">How can you help?</p>
             <div className = "Container">
