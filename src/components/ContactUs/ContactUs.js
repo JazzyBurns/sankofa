@@ -56,7 +56,7 @@ function Contact() {
 
           <div class="sankofa-fb">
             <img src={fb} className="icon" alt="Facebook"/>
-            <p className="fb-text">Sankofa Facebook Page</p>
+            <a href="https://www.facebook.com/sankofasupport" className="fb-text">Sankofa Facebook Page</a>
           </div>
 
           <br></br>
@@ -64,7 +64,8 @@ function Contact() {
           
           <div class="sankofa-fb-parent">
             <img src={fb} className="icon" alt="Facebook"/>
-            <p className="fb-text">Sankofa Facebook Parent Support Group</p>
+            <a href="https://www.facebook.com/groups/744453452804628" className="fb-text">
+              Sankofa Facebook Parent Support Group</a>
           </div>
 
         </div>

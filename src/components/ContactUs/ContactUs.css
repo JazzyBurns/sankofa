@@ -43,8 +43,9 @@
     padding-right: 5%;
 }
 
-.icon-contact p {
+.icon-contact a {
     width: 70%;
+    color: #556667;
 }
 
 #fcf-form {
