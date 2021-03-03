@@ -22,17 +22,21 @@
 }
 .MH-h3-normal{
     color: #556667;
+    display: block;
     font-family: Verdana, sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-left: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
     cursor: pointer
 
 }
 .MH-underlined {
     text-decoration-line: underline;
     font-size: 20px;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
 
   }
 
@@ -43,10 +47,19 @@
   text-align: center;
 }
 
+/*.MH-p
+{
+  text-align: center;
+  left: auto;
+}*/
+
 .MH-row{
     display: flex;
     flex-direction: row;  
     align-items: center;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 
 .MH-button2 {
@@ -55,7 +68,7 @@
     font-style: inherit;
     font: inherit;
     color: #556667;
-
+    text-align: center;
     border-width: 4px;
     flex-direction: column;
     justify-content: space-evenly;
@@ -99,13 +112,12 @@
     border-width: 4px;
     border-radius: 10px;
     font-family: Verdana, sans-serif;
-    flex-wrap: wrap;
     cursor: pointer
-
 }
 
+
 /*desktop*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:1000px){
 
 .MH-h1{ 
   text-align: left;
@@ -127,16 +139,23 @@
     flex-wrap: wrap;
 }
 
+.MH-col{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  justify-content: space-evenly;
+  
+}
+
 .MH-button2{
     width: 42%;
-    
+    margin-left: inherit;
 }
 
 .MH-button1{
   width:auto;
   margin-right:2em;
   margin-bottom: 2em;
-  flex-wrap: wrap;
   border-width: 2px;
   padding-top: 0.5em;
   padding-bottom: 0.5em;

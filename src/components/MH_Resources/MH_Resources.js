@@ -9,25 +9,32 @@ function MH_Resources() {
         <style>{'body {background-color: #FFFCF8; }'}</style>
       </Helmet>
 
-      <h1 className="MH-h1">Mental Health Resources</h1>
-      <h3 className="MH-h3-title">Click to jump to section: </h3><br/>
+      <h1 className="MH-h1">Mental Health Resources</h1><br/>
+      <h3 className="MH-h3-title">Click to jump to section: </h3>
       <a href="#website_resources" className="MH-h3-normal">Website Resources <br/></a> 
       <a href="#autism_services" className="MH-h3-normal">Autism Services <br/></a> 
-      <br/><br/><br/>
+      <br/><br/>
 
       <h2 className="MH-h2">Website Resources<a id="website_resources"></a></h2>
-      
+
       <div className="MH-row">
+         <br/>
+      </div>
+
+      <div className="MH-row">
+      
+      </div>
+
+     
+ 
+
+      <div classname="MH-row">
       <a href="http://anxietytreatmentexperts.com/">
         <button className="MH-button1">Anxiety Treatment Center</button>
       </a> 
-
       <a href="https://www.autismspeaks.org/tool-kit/100-day-kit-young-children">
         <button className="MH-button1">Autism Speaks 100-day Kit</button>
-      </a> 
-      </div>
-
-      <div classname="MH-row">
+      </a> <br/>
       <a href="http://www.chadd.org"> 
         <button  className='MH-button1'>Children and Adults with ADHD (CHADD)</button>
       </a>
@@ -55,17 +62,16 @@ function MH_Resources() {
         <a href="https://health.ucdavis.edu/mindinstitute/"> 
             <button  className='MH-button1'>UC Davis MIND institute</button>
         </a>
-    </div>
-
+    </div><br/>
       
 
       <h2 className="MH-h2">Autism Services<a id="autism_services"></a></h2>
 
-          <div>
+          <div classname="MH-col">
             <a href="https://health.ucdavis.edu/mindinstitute/"> 
                 <button  className='MH-button2'>
                 <p className="MH-underlined">Autism Spectrum Therapies</p>
-                    <p>
+                    <p classname="MH-p">
                     2150 River Plaza Drive, Suite 410, <br/>
                     Sacramento, CA 95833<br/>
                     (866) 727-8274<br/><br/>
@@ -104,7 +110,7 @@ function MH_Resources() {
             P.O. Box 254788, Sacramento, CA 95865 <br/>
                 (916) 877-5220<br/>
                 (844) 722-2881 <br/> <br/>
-                They provide case management, advocacy and educational events.
+                They provide case management, advocacy and educational events to families.
             </p>
             </button>
             </a>
@@ -125,11 +131,11 @@ function MH_Resources() {
             <a href="https://www.sacramento-autism.com/"> 
             <button  className="MH-button2">
             <p className="MH-underlined">Sacramento Autism Services</p>
-            <p>
-            7840 Madison Ave., Suite 150, Fair Oaks, CA 95628<br/>
-                (916) 534-7572<br/><br/>
-                They have ABA therapy and events for families.
-            </p>
+                <p>
+                7840 Madison Ave., Suite 150, Fair Oaks, CA 95628<br/>
+                (916) 534-7572<br/><br/> </p>
+                <p>They have ABA (Applied Behavioral Analysis) therapy and events for families.      
+                </p>
             </button>
             </a>
 
