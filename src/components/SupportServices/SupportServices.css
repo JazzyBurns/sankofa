@@ -74,23 +74,22 @@ h2
 }
 .Webbutton
 {
-    width:auto;
-    margin-right:2em;
-    margin-bottom: 2em;
-    color: #556667;
-    text-decoration: underline;
-    text-decoration-color: #556667;
-    background-color: white;
-    border-style: solid;
-    border-color: #CD9862;
-    border-width: 4px;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 2em;
-    padding-right: 2em;
-    border-radius: 10px;
-    height: 4em;
-    font-family: Verdana, sans-serif;
+   font-family: Verdana, sans-serif;
+   margin-right: 2em;
+   margin-bottom: 2em;
+   color: #556667;
+   text-decoration: underline;
+   text-decoration-color: #556667;
+   background-color: white;
+   border-style: solid;
+   border-color: #CD9862;
+   border-width: 4px;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   padding-left: 2em;
+   padding-right: 2em;
+   border-radius: 10px;
+   height: 4em;
 }
  /*
 .Webbutton
