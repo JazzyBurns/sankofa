@@ -5,7 +5,7 @@ function MH_Resources() {
   return (
     <div className="MH-container">
       <Helmet>
-        <title>Sankofa Mental Health Resources</title>
+        <title>Sankofa | Mental Health Resources</title>
         <style>{'body {background-color: #FFFCF8; }'}</style>
       </Helmet>
 

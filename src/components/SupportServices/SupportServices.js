@@ -1,11 +1,15 @@
 import './SupportServices.css'
-
+import { Helmet } from 'react-helmet';
 
 function SupportServices()
 {
 
    return (
     <div className="Support-container">
+        <Helmet>
+            <title>Sankofa | Support Services</title>
+            <style>{'body {background-color: #FFFCF8; }'}</style>
+        </Helmet>
         <div className="SupportServices-body">
                 <h2 className="Support-Title">Support Services Resources</h2>
             <p className= "Support-Paragraph">

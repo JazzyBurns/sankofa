@@ -1,10 +1,15 @@
 import './RegionalCenter.css';
 import image1 from './Com_info_eng.png';
 import image2 from './Com_info_spa.png';
+import { Helmet } from 'react-helmet';
 
 function RegionalCenter() {
   return (
     <div className="r-page">
+        <Helmet>
+                <title>Sankofa | Regional Center</title>
+                <style>{'body { background-color: #FFFCF8; }'}</style>
+        </Helmet>
         <div>
           <h1>Regional Center</h1>
         </div>
