@@ -91,29 +91,7 @@ h2
    border-radius: 10px;
    height: 4em;
 }
- /*
-.Webbutton
-{
- margin-right: 2em;
- margin-bottom: 2em;
- color: #556667;
- text-decoration: underline;
- text-decoration-color: #556667;
- border-style: solid;
- border-color: #CD9862;
- background-color:white;
- border-width: 4.5px;
- padding-top: 1em;
- padding-bottom: 2.5em;
- padding-left: 1.5em;
- padding-right: 2.5em;
- border-radius: 12px;
- font-family: Verdana, sans-serif;
- text-align:center;
- height:5em;
- min-height: 100px;
-}
-*/
+ 
  
 /*Tablet*/
 @media only screen and ( min-width:768px)
