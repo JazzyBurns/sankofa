@@ -18,7 +18,7 @@ function POA_Resources() {
             </a> 
 
             <a href="https://www.aucd.org/emergingleaders/home">
-            <button className="rectangle2">ACUD Emerging Leaders Community</button>
+            <button className="rectangle2">AUCD Emerging Leaders Community</button>
             </a> 
 
             <a href="https://www.aapf.org/">

@@ -21,7 +21,7 @@ export const RecordingData = [
   {
     date: "2/24/2021",
     thumbnail: recordingImg,
-    url: "https://google.com"
+    url: "https://ucdavis.box.com/s/ljlz8mfb4hcsfh19zi5kfqr9i4ulb2cw"
   },
   
 ]
