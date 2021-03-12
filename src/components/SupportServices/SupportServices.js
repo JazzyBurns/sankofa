@@ -14,16 +14,17 @@ function SupportServices()
                 <h2 className="Support-Title">Support Services Resources</h2>
             <p className= "Support-Paragraph">
                 <h3 className="Section">Click to jump to section:</h3>
-                <li>Website Resources</li>
-                <li>Speech/Language Website Resources</li>
-                <li>Physical Therapy Website Resources</li>
+                <a href="#Website_Resources" className="Link-h3">Website Resources<br/></a>
+                <a href="#Speech_Website_Resources"className="Link-h3">Speech/Language Website Resources<br/></a>
+                <a href="#Pt_resources"className="Link-h3">Physical Therapy Website Resources<br/></a>
+                <br></br>
             </p>
 
 
         </div>
 
         
-        <h2 className="WR">Website Resources</h2>
+        <h2 className="WR">Website Resources<a id="Website_Resources"></a></h2>
             <div className="flexrow">
                 <a href="https://health.ucdavis.edu/mindinstitute/centers/cedd.html/"> 
                     <button  className='Webbutton'>Center for Excellence in Developmental Disabilities</button>
@@ -64,7 +65,7 @@ function SupportServices()
         
         
         <div className="flexCol">
-            <h2 className="SpeechLWR">Speech/Language Website Resources</h2>
+            <h2 className="SpeechLWR">Speech/Language Website Resources<a id="Speech_Website_Resources"></a></h2>
             <a href="https://www.asha.org">
                 <button  className='Webbutton'>American-Speech-Lanugage-Hearing Association (ASHA)</button>
             </a>
@@ -97,7 +98,7 @@ function SupportServices()
        
             
             
-                <h2 className="PTWR">Physical Therapy Website Resources</h2>
+                <h2 className="PTWR">Physical Therapy Website Resources<a id="Pt_resources"></a></h2>
             
                 <a href="http://www.babystepstherapy.com">
                     

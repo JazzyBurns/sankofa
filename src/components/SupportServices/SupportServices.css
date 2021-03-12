@@ -1,5 +1,12 @@
 /*Mobile*/
  
+
+.Link-h3
+{
+  color: black;
+  text-decoration: none;
+
+}
 .Support-container
 {
  margin: auto;
@@ -96,6 +103,13 @@ h2
 /*Tablet*/
 @media only screen and ( min-width:768px)
 {
+
+   .Link-h3
+{
+  color: black;
+  text-decoration: none;
+
+}
    .Support-Paragraph
    {
       
@@ -197,6 +211,12 @@ h2
 @media only screen and ( min-width:1000px)
 {
 
+   .Link-h3
+{
+  color: black;
+  text-decoration: none;
+
+}
 .Support-Paragraph
 {
    
