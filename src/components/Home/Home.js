@@ -33,6 +33,21 @@ function Home() {
                         To collaborate with individuals with developmental disabilities and their families to improve quality of life and 
                         community inclusion. 
                     </p>
+                    <h1>Join Us</h1>
+                    <p class="line">Zoom Link: <a href="Zoom Link: https://ucdavishealth.zoom.us/j/926742042?pwd=ZFdHUlQ4cWxnbUkxdUQ1UTdkWEhEUT09">https://ucdavishealth.zoom.us/j/926742042?pwd=ZFdHUlQ4cWxnbUkxdUQ1UTdkWEhEUT09</a></p>
+                    <p class="line">Meeting ID: 926 742 042</p>
+                    <p class="line">Password: 381039</p>
+                    <p class="time">Meeting Dates</p>
+                    <ul>
+                        <li>January 27, 2021</li>
+                        <li>February 24, 2021</li>
+                        <li>March 24, 2021</li>
+                        <li>April 28, 2021</li>
+                        <li>May 26, 2021</li>
+                        <li>June 23, 2021</li>
+                        <li>July 28, 2021</li>
+                    </ul>
+                    
                 </div>
 
                 <button className="learn-more-button">

@@ -22,6 +22,15 @@
     margin-bottom: 6%;
 }
 
+.line{
+    margin-bottom: 0 !important;
+}
+
+.time{
+    margin-top: 3% !important;
+    margin-bottom: 0 !important;
+}
+
 .learn-more-button {
     display: block;
     position: relative;
