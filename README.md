@@ -49,3 +49,16 @@ Add this chunk of code to create a new powerpoint or recording card (look at the
     url: "https://drive.google.com/file/d/1d5lCCZnUc2iif8fBGYsiWJDrWxFM7CYX/view?usp=sharing",
 },
 ```
+### 4. How to add Google Search Console
+
+Go to https://search.google.com/search-console/about
+
+Add property, URL prefix (paste link to Sankofa website), go to HTML tag, copy the link provided
+
+Navigate to public -> index.html
+
+Paste the link at the top where we put this comment 
+
+``` <!-- ADD GOOGLE SEARCH CONSOLE TAG HERE --> ```
+
+Go back to your Google Search Console dashboard and click verify. 
