@@ -20,9 +20,9 @@ Example:
 
 Uploaded a new image called UpdatedLogo.png
 
-Before: ```html <img src="images/SankofaLogo.png"/> ```
+Before: ```<img src="images/SankofaLogo.png"/> ```
 
-After: ```html <img src="images/UpdatedLogo.png"/> ```
+After: ```<img src="images/UpdatedLogo.png"/> ```
 
 ## 3. How to add Powerpoints / Recordings
 
@@ -40,8 +40,10 @@ Example: import presentationImg from './Thumbnails/sankofapresentation.png'
 
 Add this chunk of code to create a new powerpoint or recording card (look at the comments in the file)
 
+```
 {
-    title: "Introduction", \n
-    thumbnail: presentationImg, \n
-    url: "https://drive.google.com/file/d/1d5lCCZnUc2iif8fBGYsiWJDrWxFM7CYX/view?usp=sharing", \n
+    title: "Introduction", 
+    thumbnail: presentationImg, 
+    url: "https://drive.google.com/file/d/1d5lCCZnUc2iif8fBGYsiWJDrWxFM7CYX/view?usp=sharing",
 },
+```
