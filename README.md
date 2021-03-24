@@ -49,7 +49,7 @@ Add this chunk of code to create a new powerpoint or recording card (look at the
     url: "https://drive.google.com/file/d/1d5lCCZnUc2iif8fBGYsiWJDrWxFM7CYX/view?usp=sharing",
 },
 ```
-### 4. How to add Google Search Console
+## 4. How to add Google Search Console
 
 Go to https://search.google.com/search-console/about
 
