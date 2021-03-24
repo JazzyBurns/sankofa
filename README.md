@@ -20,9 +20,9 @@ Example:
 
 Uploaded a new image called UpdatedLogo.png
 
-Before: '<img src="images/SankofaLogo.png"/>'
+Before: /<img src="images/SankofaLogo.png"/>
 
-After: '<img src="images/UpdatedLogo.png"/>'
+After: /<img src="images/UpdatedLogo.png"/>'
 
 ## 3. How to add Powerpoints / Recordings
 
