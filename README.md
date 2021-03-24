@@ -1,5 +1,7 @@
 # Making Changes to Your Site
 
+Link to website: https://sankofa-group.herokuapp.com/
+
 If there is a bug that you need help fixing, fill out #include's form: https://forms.gle/vtXngacs4gXcgQ7s7
 
 ## 1. Where to find the files for each page
