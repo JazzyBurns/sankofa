@@ -1,6 +1,7 @@
 // example import: "import INSERTNAME from './Thumbnails/fileName.png/jpg';"
 import presentationImg from './Thumbnails/sankofapresentation.png';
 import recordingImg from './Thumbnails/recordedsession.png';
+import recordingImg from './Thumbnails/SafeBlackSpaceimg.JPG';
 
 export const PresentationData = [
   /* EXAMPLE:
