@@ -2,6 +2,7 @@
 import presentationImg from './Thumbnails/sankofapresentation.png';
 import recordingImg from './Thumbnails/recordedsession.png';
 import recordingImg2 from './Thumbnails/SafeBlackSpaceimg.JPG';
+import recordingImg3 from './Thumbnails/Disability Rights CA.JPG';
 
 export const PresentationData = [
   /* EXAMPLE:
@@ -32,7 +33,13 @@ export const RecordingData = [
     date: "4/28/2021",
     thumbnail: recordingImg2,
     url: "https://ucdavis.box.com/s/i9f8wttf54w0ohk30xeb22txjqldc1jb"
-  }
+  },
+  {
+    title: "Disability Rights CA",
+    date: "5/26/2021",
+    thumbnail: recordingImg3,
+    url: "https://ucdavis.box.com/s/1t0j64e1xlkayvb74dq20a5psci4qsuc"
+  },
 ]
 
 export default {
