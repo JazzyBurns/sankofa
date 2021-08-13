@@ -19,16 +19,19 @@ export const PresentationData = [
 ]
 
 export const RecordingData = [
+  // if you want to display a title instead of a date, replace the date string
+  // with the title; ex:
+  // date: "4/28/2021" ----> date: "Safe Black Space Presentation"
   {
     date: "2/24/2021",
     thumbnail: recordingImg,
     url: "https://ucdavis.box.com/s/ljlz8mfb4hcsfh19zi5kfqr9i4ulb2cw"
   },
-  */
   {
     title: "Safe Black Space Presentation",
+    date: "4/28/2021",
     thumbnail: recordingImg2,
-    url: "https://ucdavis.app.box.com/file/830938210924"
+    url: "https://ucdavis.box.com/s/i9f8wttf54w0ohk30xeb22txjqldc1jb"
   }
 ]
 
